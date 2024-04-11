@@ -2,8 +2,6 @@ module github.com/ijcBIT/IJC-BIT_web
 
 go 1.21
 
-toolchain go1.22.1
-
 require (
 	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
 	github.com/KaTeX/KaTeX v0.16.10 // indirect

@@ -1,4 +1,4 @@
-description: The starter theme template of HB (Hugo Bootstrap) Framework.
+description:  Josep Carreras Leukaemia Research Institute - bioinformatics unit
 
 hb:
   # override SASS variables, please replace the dash with underline, e.g. `list-group-color` should be `list_group_color`.
@@ -9,24 +9,23 @@ hb:
   # css_bundle_name: main # the CSS bundle name.
   
   full_width: false # when true, the layout takes full width globally.
-
+  logo: images/logo.png
   header:
-    brand: HB # the brand name, leave it empty to use site's title.
-    logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
+    brand: ijcBIT # the brand name, leave it empty to use site's title.
+    # logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      github: hbstack
-      # twitter: razonyang
+      github: ijcBIT
+      x: ijcBIT
       rss: true
-      mastodon: https://techhub.social/@hbstack
   footer:
+    powered_by: false
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
       _color: true # when false, remove the color of social icons.
-      github: hbstack
-      twitter: razonyang
+      github: ijcBIT
+      x: ijcBIT
       rss: true
-      mastodon: https://techhub.social/@hbstack
   terms:
     # the paginate for categories, tags, series list pages.
     paginate: 12
@@ -35,11 +34,11 @@ hb:
       profile:
         # title: Profile title other than site title.
         # description: Profile description other than site description.
-        company: COMPANY
-        location: Earth
+        # company: Josep Carreras Leukaemia Research Institute
+        location: Carretera de Can Ruti,Camí de les Escoles, s/n, 08916 Badalona, Barcelona. Spain
         socials:
-          github: hbstack
-          mastodon: https://techhub.social/@hbstack
+          github: ijcBIT
+          x: ijcBIT
           rss: true
       posts:
         recent_count: 5 # the number of recent posts.
@@ -58,23 +57,14 @@ hb:
         - docs
         - blog
         - tutorials
-    giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
-  docs:
-    giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
   content_panel:
     repo:
       service: github # github or gitlab.
-      repo: hbstack/theme
+      repo: ijcBIT/IJC-BIT_web
       branch: main
       # subpath: exampleSite
-  # gallery:
-  #   thumbnail_size: "x640"
+  gallery:
+     thumbnail_size: "x640"
 
 seo:
   favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
@@ -86,7 +76,7 @@ pwa:
   manifest:
     background_color: '#712cf9'
     theme_color: '#712cf9'
-    short_name: 'HB Theme'
+    short_name: 'ijcBIT'
 
 # see https://hugomods.com/search/configurations/.
 search:

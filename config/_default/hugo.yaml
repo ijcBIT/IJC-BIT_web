@@ -1,9 +1,9 @@
-baseURL: https://theme.hbstack.dev/
-title: HB Starter Theme Template
+baseURL: https://ijcbit.net/
+title: ijcBIT
 # Copyright, the {year} is the placeholder of this year.
-copyright: "Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved."
+copyright: "Copyright © 2024-{year} [ijcBIT](https://ijcbit.net/). All Rights Reserved."
 defaultContentLanguage: en
-defaultContentLanguageInSubdir: true # disable this to remove the default language code from URL, i.e. /en/docs -> /docs.
+defaultContentLanguageInSubdir: false # disable this to remove the default language code from URL, i.e. /en/docs -> /docs.
 enableRobotsTXT: true
 timeout: 120s # images processing takes a long time, it's recommended to commit the resources folder for improve the build performance.
 enableEmoji: true
@@ -13,7 +13,11 @@ title_sections_depth: 0 # the depth of sections on the title.
 title_sections_depth_dir: end # when start, the depth is counting from the root sections.
 
 permalinks:
-  blog: /blog/:year/:month/:title
+  news: /news/:year/:month/:title
+  events: /events/:year/:month/:title
+  training: /training/:year/:month/:title
+  sofware: /sofware/:year/:month/:title
+  publications: /publications/:year/:month/:title
 
 outputs:
   home:
@@ -22,7 +26,7 @@ outputs:
     - RSS
     - SearchIndex    # required by search module.
     - WebAppManifest # required by PWA module to make your site installable.
-    - DecapCMSConfig
+    - DecapCMSConfig 
 
 taxonomies:
   authors: authors       # multiple authors.
@@ -41,6 +45,9 @@ markup:
     noClasses: false
     lineNos: true
     lineNumbersInTable: false
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2
 
 # see https://gohugo.io/content-management/related/#configure-related-content
 related:
