@@ -122,3 +122,46 @@ hugopress:
       hooks:
         hb-blog-sidebar:
           weight: 2
+decap_cms:
+  # _js_url: http://localhost:8080/dist/decap-cms.js
+  _preview_templates:
+    - name: hb/blog-post
+      collections:
+        - blog
+        - news
+    - name: hb/docs-doc
+      collections:
+        - documents
+        - modules
+  publish_mode: editorial_workflow
+  logo_url: images/logo.png
+  i18n:
+    structure: multiple_files
+  collections:
+    blog:
+      _weight: 2
+      _extends:
+        - nested
+        - meta_path
+        - hb_blog_posts
+      folder: content/blog
+      name: "blog"
+      i18n: true
+      preview_path: /blog/{{year}}/{{month}}/{{title}}
+    archives:
+      _extends:
+        - nested
+        - meta_path
+        - hb_blog_archives
+      name: "archives"    
+      folder: content/archives
+      i18n: true
+    docs:
+      _weight: 3
+      _extends:
+        - nested
+        - meta_path
+        - hb_docs_doc
+      name: "docs"    
+      i18n: true
+      folder: content/docs

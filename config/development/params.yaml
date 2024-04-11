@@ -13,3 +13,8 @@ hugopress:
   modules:
     pwa:
       disable: true
+
+decap_cms:
+  backend:
+    name: git-gateway
+  local_backend: true

@@ -1,6 +1,8 @@
 module github.com/ijcBIT/IJC-BIT_web
 
-go 1.19
+go 1.21
+
+toolchain go1.22.1
 
 require (
 	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
@@ -13,6 +15,7 @@ require (
 	github.com/hbstack/blog v0.26.3 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
+	github.com/hbstack/blog/modules/decap-cms v0.3.0 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.23 // indirect
 	github.com/hbstack/blog/modules/heading-sign v0.1.23 // indirect
@@ -31,6 +34,7 @@ require (
 	github.com/hbstack/docs v0.14.1 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
 	github.com/hbstack/docs/modules/content-panel v0.1.8 // indirect
+	github.com/hbstack/docs/modules/decap-cms v0.2.1 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.5 // indirect
 	github.com/hbstack/docs/modules/featured-image v0.2.8 // indirect
 	github.com/hbstack/docs/modules/giscus v0.1.10 // indirect
@@ -42,9 +46,11 @@ require (
 	github.com/hbstack/gallery v0.11.0 // indirect
 	github.com/hbstack/gallery/modules/breadcrumb v0.1.0 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
+	github.com/hbstack/google-fonts v0.1.1 // indirect
 	github.com/hbstack/hb v0.12.2 // indirect
 	github.com/hbstack/header v0.14.3 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect
+	github.com/hbstack/header/modules/news v0.2.2 // indirect
 	github.com/hbstack/header/modules/search v0.1.35 // indirect
 	github.com/hbstack/header/modules/socials v0.1.28 // indirect
 	github.com/hbstack/header/modules/theme-toggle v0.4.4 // indirect
@@ -67,6 +73,8 @@ require (
 	github.com/hugomods/base v0.6.0 // indirect
 	github.com/hugomods/bootstrap v0.21.2 // indirect
 	github.com/hugomods/code-block-panel v0.5.0 // indirect
+	github.com/hugomods/decap-cms/editor-components/todo v0.1.2 // indirect
+	github.com/hugomods/decap-cms/widgets/url v0.1.2 // indirect
 	github.com/hugomods/font-awesome v6.5.2+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
