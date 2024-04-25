@@ -1,5 +1,5 @@
 baseURL: https://ijcbit.net/
-title: ijcBIT
+title: IJC Bioinformatics
 # Copyright, the {year} is the placeholder of this year.
 copyright: "Copyright © 2024-{year} [ijcBIT](https://ijcbit.net/). All Rights Reserved."
 defaultContentLanguage: en
@@ -28,11 +28,11 @@ outputs:
     - WebAppManifest # required by PWA module to make your site installable.
     - DecapCMSConfig 
 
-taxonomies:
-  authors: authors       # multiple authors.
-  tags: tags
-  categories: categories
-  series: series
+#taxonomies:
+#  authors: authors       # multiple authors.
+#  tags: tags
+#  categories: categories
+#  series: series
 
 build:
   writeStats: true # required by PurgeCSS.
@@ -74,4 +74,3 @@ security:
       - ^HUGO
       - CI$
       - PWD
-

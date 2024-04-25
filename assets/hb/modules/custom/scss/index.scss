@@ -5,3 +5,93 @@
 /*! PUT YOU STYLE HERE TO AVOID GETTING REMOVING BY PURGECSS. */
 
 /*! purgecss end ignore */
+
+/*div {
+    display: block;
+    unicode-bidi: isolate;
+}*/
+
+.hb-header-logo {
+    height: 64px;
+}
+
+.tophead {
+    height: 58px;
+    margin-bottom: 0em;
+    background-image: url(/images/curve.png), url(/images/tophead.jpg);
+    background-size: 100%, 2000px 80px;
+    background-position: center bottom;
+    background-repeat: no-repeat, repeat-x;
+}
+
+.hb-header-nav {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    --hb-bg-opacity: 0;
+    /*background: linear-gradient(180deg, #f9f9fd 0%, #ffffff 47%); */
+}
+
+.navbar {
+    --hb-navbar-color: var(--hb-emphasis-color-rgb);
+ }
+
+ .nav-link {
+    color: #3c86a8
+ }
+
+:root, [data-bs-theme="light"] {
+    --hb-gray-700: #495057;
+    --hb-gray-800: #343a40;
+    --hb-primary: #343a40;
+    --hb-body-bg: #f9f9fd;
+    --hb-body-color: #00bfd6;
+    --hb-emphasis-color-rgb: 0, 191, 214;
+    --hb-navbar-color: var(--hb-emphasis-color-rgb);
+    --hb-navbar-active-color: #4295bb;
+    --hb-header-navbar-active-color: #4295bb;
+    --hb-navbar-hover-color: #4295bb;
+    --hb-nav-link-font-size: 0.9rem;
+    --hb-breadcrumb-font-size: 0.9rem;
+}
+
+ul.navbar-nav li.nav-item a.active {
+    font-weight: bolder;
+}
+
+.navbar-nav .nav-link.active {
+    color: #4295bb;
+}
+
+.hb-header-menus .hb-header-menu::after {
+    color: #4295bb;
+    --hb-header-navbar-active-color: #4295bb;
+}
+
+body {
+    --hb-top-offset: 50px !important;
+}
+
+footer {
+    color:  #f9f9fd;
+    background: linear-gradient(90deg, #5ebf81 0%, #00bfd6 70%);
+}
+
+.hb-main {
+    margin: 0;
+}
+
+.hb-footer a {
+    color: #f9f9fd !important; 
+}
+
+footer .container-fluid {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer-flex-col{
+    align-content: center;
+}
