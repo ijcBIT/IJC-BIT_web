@@ -4,8 +4,8 @@ menu:
   main:
     identifier: software
     weight: 3
-    params:
-      icon:
-        vendor: bootstrap
-        name: laptop
+    # params:
+    #   icon:
+    #     vendor: bootstrap
+    #     name: laptop
 ---

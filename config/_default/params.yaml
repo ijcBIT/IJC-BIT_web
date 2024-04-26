@@ -14,18 +14,18 @@ hb:
     brand: IJC Bioinformatics # the brand name, leave it empty to use site's title.
     # logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
-    socials:
-      github: ijcBIT
-      x: ijcBIT
-      rss: true
+    # socials:
+    #   github: ijcBIT
+    #   x: ijcBIT
+    #   rss: true
   footer:
     powered_by: false
     # see https://hbstack.dev/en/docs/modules/socials/.      
-    socials:
-      _color: true # when false, remove the color of social icons.
-      github: ijcBIT
-      x: ijcBIT
-      rss: true
+    # socials:
+    #   _color: false # when false, remove the color of social icons.
+    #   github: ijcBIT
+    #   x: ijcBIT
+    #   rss: true
   terms:
     # the paginate for categories, tags, series list pages.
     paginate: 12
@@ -59,6 +59,7 @@ hb:
         - software
         - training
         - publications
+        - people
   content_panel:
     repo:
       service: github # github or gitlab.
@@ -67,6 +68,14 @@ hb:
       # subpath: exampleSite
   gallery:
      thumbnail_size: "x640"
+  contact:
+      endpoint: "https://formspree.io/f/mbjnqvnq"
+      extra_fields:
+      - name: foo
+        type: hidden
+        value: bar
+      file: false
+      recaptcha_siekey: ""
 
 seo:
   favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
@@ -164,3 +173,10 @@ decap_cms:
       name: "docs"    
       i18n: true
       folder: content/docs
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+        title: true

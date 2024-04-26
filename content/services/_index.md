@@ -4,8 +4,8 @@ menu:
   main:
     identifier: services
     weight: 2
-    params:
-      icon:
-        vendor: bootstrap
-        name: boxes
+    # params:
+    #   icon:
+    #     vendor: bootstrap
+    #     name: boxes
 ---

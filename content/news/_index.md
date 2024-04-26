@@ -4,8 +4,8 @@ menu:
   main:
     identifier: news
     weight: 5
-    params:
-      icon:
-        vendor: bs
-        name: newspaper
+    # params:
+    #   icon:
+    #     vendor: bs
+    #     name: newspaper
 ---

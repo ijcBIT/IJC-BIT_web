@@ -42,12 +42,16 @@
     color: #3c86a8
  }
 
+ kbd {
+    background-color: #00bfd6 
+}
+
 :root, [data-bs-theme="light"] {
     --hb-gray-700: #495057;
     --hb-gray-800: #343a40;
     --hb-primary: #343a40;
     --hb-body-bg: #f9f9fd;
-    --hb-body-color: #00bfd6;
+    --hb-body-color: #4E7389;
     --hb-emphasis-color-rgb: 0, 191, 214;
     --hb-navbar-color: var(--hb-emphasis-color-rgb);
     --hb-navbar-active-color: #4295bb;
@@ -68,6 +72,28 @@ ul.navbar-nav li.nav-item a.active {
 .hb-header-menus .hb-header-menu::after {
     color: #4295bb;
     --hb-header-navbar-active-color: #4295bb;
+}
+
+.justify-content-center {
+    padding-top: 100px;
+    justify-content: right !important;
+}
+
+.hb-header-banner {
+    --hb-header-banner-color: #d9e2e8 !important;
+    margin-bottom: 0px !important;
+}
+
+@media (min-width: 576px) {
+    .hb-header-banner .lead {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
+
+.hb-header-banner .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 body {
@@ -94,4 +120,28 @@ footer .container-fluid {
 
 footer .footer-flex-col{
     align-content: center;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 50%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+
+.hb-contact-form .form-text{
+    color: white;
+}
+
+section[data-section-id="people"]
+.section-background {
+    background: linear-gradient(162deg, #05494a, #70b98d, #05494a, #0a5c5d);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 38s ease infinite;
+    -moz-animation: AnimationName 38s ease infinite;
+    animation: AnimationName 38s ease infinite;
 }

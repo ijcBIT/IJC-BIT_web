@@ -12,10 +12,12 @@ imports:
   # - path: github.com/hugomods/decap-cms/editor-components/todo
   # - path: github.com/hugomods/decap-cms
 
+  - path: github.com/hbstack/contact
+
   - path: github.com/hbstack/google-fonts
   # gallery modules.
   - path: github.com/hbstack/gallery
-  #- path: github.com/hbstack/gallery/modules/breadcrumb
+  - path: github.com/hbstack/gallery/modules/breadcrumb
 
   # icons modules
   - path: github.com/hugomods/icons/vendors/font-awesome
@@ -38,6 +40,12 @@ imports:
   # docs content panel
   # - path: github.com/hbstack/docs/modules/content-panel
 
+  # home page banner
+  - path: github.com/hbstack/header/modules/banner
+
+  # Animated text
+  - path: github.com/hugomods/aos
+
   # recommended modules
   - path: github.com/hbstack/back-to-top
   - path: github.com/hbstack/bigger-picture
@@ -46,12 +54,12 @@ imports:
   - path: github.com/hbstack/docs/modules/breadcrumb
   - path: github.com/hbstack/docs/modules/featured-image
   - path: github.com/hbstack/docs/modules/heading-sign
-  #- path: github.com/hbstack/docs/modules/doc-nav
+  - path: github.com/hbstack/docs/modules/doc-nav
   - path: github.com/hbstack/blog
   - path: github.com/hbstack/blog/modules/breadcrumb
   - path: github.com/hbstack/blog/modules/featured-image
   - path: github.com/hbstack/blog/modules/heading-sign
-  #- path: github.com/hbstack/blog/modules/post-nav
+  - path: github.com/hbstack/blog/modules/post-nav
   - path: github.com/hbstack/blog/modules/related-posts
   - path: github.com/hbstack/mermaid
   - path: github.com/hugomods/katex
