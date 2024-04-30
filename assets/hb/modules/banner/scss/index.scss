@@ -24,17 +24,15 @@
     object-fit: cover;
 }
 
-.hb-header-banner,
 .hb-header-banner-frame,
 .hb-header-banner-img,
 .hb-header-banner-video {
-    height: 90vh;
-    top: 100px;   
+    height: 35vh;
+    top: 12px;
+    position: relative;   
 }
 
 .hb-header-banner {
-    --#{$prefix}header-banner-color: #fff;
-
     @include media-breakpoint-down($hb-header-breakpoint) {
         .hb-header-menus,
         .hb-header-panel {
@@ -82,4 +80,19 @@
     }
 }
 
+.top_header {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: transparent url(/images/curve2.png) no-repeat top center;
+    background-size: 100%;
+    z-index: 100;
+    top: 70px; 
+}
+
+
+.shadow-sm {
+    box-shadow: none !important;
+}
 /*! purgecss end ignore */

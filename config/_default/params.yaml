@@ -1,5 +1,5 @@
 description:  Josep Carreras Leukaemia Research Institute - bioinformatics unit
-
+              
 hb:
   # override SASS variables, please replace the dash with underline, e.g. `list-group-color` should be `list_group_color`.
   # styles:
@@ -48,17 +48,17 @@ hb:
         count: true # whether to show the number of posts associated to the item.
         limit: 10 # the maximum number of the item.
     paginate: 12 # paginate.
-    post_thumbnail_placeholder: HB THEME # the text of thumbnail placeholder, default to site title.
-    # post_thumbnail: false # whether to show the thumbnails.
+    # post_thumbnail_placeholder: HB THEME # the text of thumbnail placeholder, default to site title.
+    post_thumbnail: true # whether to show the thumbnails.
     # post_date_format: ":date_long" # see https://gohugo.io/functions/dateformat/#datetime-formatting-layouts.
     home: # homepage settings.
       taxonomies: false # remove the taxonomies stat from the homepage.
       featured_posts: 5 # the number of the featured posts.
       main_sections: # leave it empty to include all regular pages.
-         - contact
+      #   - contact
       #   - software
       #   - training
-      #   - publications
+         - publications
       #   - people
   content_panel:
     repo:

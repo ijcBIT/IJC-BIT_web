@@ -1,8 +1,8 @@
 ---
 title: People
 type: people
-images:
-  - group.JPG
+#images:
+#  - group.JPG
 Meta:
   authors: false
   date: false
@@ -18,8 +18,6 @@ menu:
     #     name: people-group
 ---
 
-## Backgrounds
+## Lorem
 
-Initially, to make it easier for newbies to get started and familiarize themselves with the themes of the HB framework, we provide a number of [meta modules], which are just collections of modules that don't provide any functionalities.
-
-However, meta modules have an obvious disadvantage that it is difficult to remove unwanted modules from them, so in this tutorial, we're going to talk about how to replace the meta module.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

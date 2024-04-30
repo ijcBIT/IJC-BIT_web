@@ -58,7 +58,8 @@
     --hb-header-navbar-active-color: #4295bb;
     --hb-navbar-hover-color: #4295bb;
     --hb-nav-link-font-size: 0.9rem;
-    --hb-breadcrumb-font-size: 0.9rem;
+    --hb-breadcrumb-font-size: 0.9rem; 
+    --hb-btn-color:#00bfd6;
 }
 
 ul.navbar-nav li.nav-item a.active {
@@ -74,24 +75,37 @@ ul.navbar-nav li.nav-item a.active {
     --hb-header-navbar-active-color: #4295bb;
 }
 
-.justify-content-center {
-    padding-top: 100px;
-    justify-content: right !important;
-}
-
-.tophead .hb-header-banner {
-    --hb-header-banner-color: #d9e2e8 !important;
-    margin-bottom: 0px !important;
-}
 
 .hb-header-banner-inner {
-    background-color: #000000b0;
+    margin: 5vh;
+    padding: 3vh;
+    color: #6A8EA0;
+    background-color: #f9f9fd;
     border-radius: 10px; 
+    flex: 1;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 31px -10px rgba(17, 68, 114, 0.23);
+    -moz-box-shadow: 0px 0px 31px -10px rgba(17, 68, 114, 0.23);
+    box-shadow: 0px 0px 31px -10px rgba(17, 68, 114, 0.23);
+    border-radius: 0.9em;
+    
 }
 
 .hb-header-banner-inner .display-1{
-    color: #4E7389;
+    color: #00bfd6;
+    font-size: 3rem !important;
 }
+
+.hb-header-banner-inner .hb-contact-form{
+    color: #6A8EA0;    
+}
+
+.hb-header-banner-inner  .btn-primary {
+    color: #6A8EA0;    
+}
+
 
 .hb-header-banner-inner a{
     color: #00bfd6;
@@ -102,16 +116,19 @@ ul.navbar-nav li.nav-item a.active {
     font-weight: 300;
 }
 
+.hb-header-banner .d-grid {
+    justify-content: center;
+}
+
+
 @media (min-width: 992px) {
     .col-lg-8 {
         width: 75%;
     }
 }
 
-
-.hb-header-banner .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
-    margin-right: 0;
-    margin-left: 0;
+.hb-header-banner .lead {
+    text-align: justify;
 }
 
 body {
@@ -184,4 +201,12 @@ section[data-section-id="people"]
 
 .hb-main {
     margin-bottom: 0 !important;
+}
+
+@media (max-width: 800px) {
+    .hb-footer .container-fluid {
+        flex-wrap: wrap !important;
+        align-items: center;
+        flex-direction: column;
+    }
 }

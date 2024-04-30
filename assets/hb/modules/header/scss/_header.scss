@@ -17,6 +17,7 @@ $hb-header-logo-bg: null !default;
 }
 
 .hb-header {
+    height: auto !important;
     margin-bottom: calc(var(--#{$prefix}top-offset) + .5rem);
 
     .dropdown-item {

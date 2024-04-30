@@ -1,7 +1,7 @@
 {{- $cols := default "row-cols-lg-2 row-cols-xl-3" .Cols }}
 {{- $readMore := default true .ReadMore }}
 {{- $modularize := default true .Modularize }}
-<div class="hb-blog-posts row {{ $cols }} g-3 mb-3">
+<div class="hb-people-cards row {{ $cols }} g-3 mb-3">
   {{ range .Pages }}
     <div class="col">
       {{- $ctx := dict "Page" . "ReadMore" $readMore "Modularize" $modularize "Caller" "list" }}

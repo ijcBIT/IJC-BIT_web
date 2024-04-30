@@ -9,10 +9,11 @@
     {{- end }}
   {{- end }}
 {{- end }}
+<div class="top_header"></div>
 <video
   data-setup="{}"
   preload="auto"
-  class="hb-header-banner-video position-absolute w-100 overflow-hidden"
+  class="hb-header-banner-video w-100 overflow-hidden"
   onloadstart="document.querySelector('.hb-header').classList.add('hb-header-banner')"
   {{ with $poster }}poster="{{ . }}"{{ end }}
   {{ if default true .muted }}muted{{ end }}

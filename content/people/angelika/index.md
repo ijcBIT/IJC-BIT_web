@@ -9,7 +9,7 @@ series:
 categories:
 tags:
 images:
-  - Angelika.jpeg
+  - Angelika_s.jpeg
 authors:
   - HB
 aliases:

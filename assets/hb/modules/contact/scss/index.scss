@@ -1,0 +1,14 @@
+.contatct_form_name_email {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (max-width: 800px) {
+    .hb-header-banner {
+        flex-wrap: wrap !important;
+    }
+}
+
+.contatct_form_name_email .form-floating{
+    margin-right: 10px;
+}
