@@ -1,7 +1,7 @@
-baseURL: https://ijcbit.net/
+baseURL: https://ijcbit.eu/
 title: IJC Bioinformatics
 # Copyright, the {year} is the placeholder of this year.
-copyright: "Copyright © 2024-{year} [ijcBIT](https://ijcbit.net/). All Rights Reserved."
+copyright: "Copyright © {year} ijcBIT. All Rights Reserved."
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false # disable this to remove the default language code from URL, i.e. /en/docs -> /docs.
 enableRobotsTXT: true

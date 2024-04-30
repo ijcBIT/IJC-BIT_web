@@ -1,6 +1,6 @@
 ---
 title: People
-type: blog
+type: people
 images:
   - group.JPG
 Meta:

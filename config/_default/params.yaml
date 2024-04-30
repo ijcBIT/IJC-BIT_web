@@ -55,11 +55,11 @@ hb:
       taxonomies: false # remove the taxonomies stat from the homepage.
       featured_posts: 5 # the number of the featured posts.
       main_sections: # leave it empty to include all regular pages.
-        - services
-        - software
-        - training
-        - publications
-        - people
+         - contact
+      #   - software
+      #   - training
+      #   - publications
+      #   - people
   content_panel:
     repo:
       service: github # github or gitlab.

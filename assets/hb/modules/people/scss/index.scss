@@ -1,0 +1,17 @@
+.hb-blog-people-card-img {
+    height: 160px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    transition: 0.3s;
+    //border-radius: 50px;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.hb-blog-people-card-img :hover {
+    pointer-events: auto;
+}
+

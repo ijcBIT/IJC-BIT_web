@@ -1,7 +1,7 @@
 ---
 type: blog
 title: "Marta"
-description: Master student
+description: Student
 date: 2023-10-10T22:44:37+08:00
 draft: false
 series:
@@ -10,15 +10,11 @@ categories:
 tags:
 images:
   - Marta_s.jpeg
-  - Marta.JPG
 authors:
   - HB
 aliases:
   - /2023/10/replace-meta-modules
 
-menu:
-  main:
-    parent: people
 ---
 
 ## Backgrounds

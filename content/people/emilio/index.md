@@ -1,12 +1,12 @@
 ---
-type: blog
+type: docs
 title: "Emilio"
 Meta:
   authors: true
   date: true
   reading_time: true
   taxonomies: true
-description: Software developer
+description: Software Enginier
 date: 2023-10-10T22:44:37+08:00
 draft: false
 series:
@@ -15,15 +15,11 @@ categories:
 tags:
 images:
   - Emilio_s.jpeg
-  - Emilio.JPG?height=180
 authors:
   - HB
 aliases:
   - /2023/10/replace-meta-modules
 
-menu:
-  main:
-    parent: people
 ---
 
 ## Backgrounds

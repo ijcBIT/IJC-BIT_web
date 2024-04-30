@@ -1,7 +1,7 @@
 ---
 type: blog
 title: "Angelika"
-description: Core Facility Leader
+description: Facility Manager
 date: 2023-10-10T22:44:37+08:00
 draft: false
 series:
@@ -9,15 +9,12 @@ series:
 categories:
 tags:
 images:
-  - Angelika.JPG
+  - Angelika.jpeg
 authors:
   - HB
 aliases:
   - /2023/10/replace-meta-modules
 
-menu:
-  main:
-    parent: people
 ---
 
 ## Backgrounds

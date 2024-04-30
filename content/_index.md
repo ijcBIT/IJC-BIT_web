@@ -12,15 +12,14 @@ header:
       Consult us for your next research proposal, data analysis or training request:
       
       {{< html/div
-        data-aos="fade-up"
-        data-aos-delay="300"
-        class="d-grid gap-3 d-sm-flex justify-content-sm-center flex-wrap" >}}
-        {{< bs/btn-link style=primary size=lg class="py-3" url="/contact" >}}
+        class="d-grid gap-3 d-sm-flex flex-wrap" >}}
+        {{< bs/btn-link style=primary size=lg url="/contact" >}}
           Contact
-        {{< /bs/btn-link >}}
+        {{< /bs/btn-link >}}        
       {{< /html/div >}}
+      <br>
     #  {{< hb/contact >}}
     video:
-      #poster: https://www.heishenhua.com/img/Wallpaper/Wallpaper6.jpg
+      poster: images/home.png
       src: videos/home.mp4
 ---

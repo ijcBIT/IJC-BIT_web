@@ -1,0 +1,46 @@
+{{- $page := .Page }}
+{{- $external := false }}
+{{- $showSummary := default true .Summary }}
+{{- $meta := default true .Meta }}
+{{- $pageMeta := default dict $page.Params.meta }}
+{{- $modularize := default true .Modularize }}
+{{- $thumbnail := default true site.Params.hb.blog.post_thumbnail }}
+{{- $thumbnailPos := "top" }}
+{{- if eq .Caller "list" }}
+  {{- $thumbnailPos = site.Params.hb.blog.post_thumbnail_position }}
+{{- end }}
+<div
+  class="hb-blog-post-card card border-0 overflow-hidden h-100{{ cond $modularize ` hb-module` ` bg-transparent` }} mb-0">
+  {{- if and $thumbnail (ne $thumbnailPos "top") }}
+    {{ printf `<div class="d-flex flex-column flex-md-row">` | safeHTML }}
+    <div class="hb-blog-post-card-wrapper me-md-2 mt-2 mt-md-0">
+      {{ partial "hb/modules/people/card-img" $page }}
+    </div>
+    {{ printf `<div class="hb-blog-post-card-body overflow-hidden">` | safeHTML }}
+  {{- end }}
+  <div class="card-body px-0 py-2 d-flex flex-column">
+    <div class="hb-blog-post-title card-title h5 py-1">
+        {{- if $page.Params.pinned }}
+          {{- partialCached "hb/modules/blog/helpers/pinned-icon" . -}}
+        {{- end }}
+        {{- $page.Title -}}
+        {{- if $external }}
+          {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "box-arrow-up-right" "className" "ms-1") }}
+        {{- end }}
+    </div>
+    {{- if $showSummary }}
+      {{- $summary := $page.Summary }}
+      {{- $truncated := $page.Truncated }}
+      {{- with $page.Description }}
+        {{- $summary = . }}
+        {{- $truncated := true }}
+      {{- end }}
+      <div class="hb-blog-post-summary card-text text-secondary mb-auto">
+        {{- $summary -}}
+      </div>      
+    {{- end }}
+  </div>
+  {{- if and $thumbnail (ne $thumbnailPos "top") }}
+    {{ printf `</div></div>` | safeHTML }}
+  {{- end }}
+</div>

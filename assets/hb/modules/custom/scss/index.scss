@@ -79,17 +79,35 @@ ul.navbar-nav li.nav-item a.active {
     justify-content: right !important;
 }
 
-.hb-header-banner {
+.tophead .hb-header-banner {
     --hb-header-banner-color: #d9e2e8 !important;
     margin-bottom: 0px !important;
 }
 
-@media (min-width: 576px) {
-    .hb-header-banner .lead {
-        font-size: 1rem;
-        font-weight: 300;
+.hb-header-banner-inner {
+    background-color: #000000b0;
+    border-radius: 10px; 
+}
+
+.hb-header-banner-inner .display-1{
+    color: #4E7389;
+}
+
+.hb-header-banner-inner a{
+    color: #00bfd6;
+}
+
+.hb-header-banner .lead {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+@media (min-width: 992px) {
+    .col-lg-8 {
+        width: 75%;
     }
 }
+
 
 .hb-header-banner .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
     margin-right: 0;
@@ -144,4 +162,26 @@ section[data-section-id="people"]
     -webkit-animation: AnimationName 38s ease infinite;
     -moz-animation: AnimationName 38s ease infinite;
     animation: AnimationName 38s ease infinite;
+}
+
+.btn-primary {
+    --hb-btn-color: #fff;
+    --hb-btn-bg: #00bfd6;
+    --hb-btn-border-color: #00bfd6;
+    --hb-btn-hover-color: #fff;
+    --hb-btn-hover-bg: #3981a2;
+    --hb-btn-hover-border-color: #3981a2;       
+}
+
+.hb-header-banner-inner .btn-primary {
+    --hb-btn-bg: #4e738900;
+}
+
+.hb-header-banner-inner  .py-3 {
+    --padding-top: 0 !important;
+    --padding-bottom: 0 !important; 
+}
+
+.hb-main {
+    margin-bottom: 0 !important;
 }

@@ -1,7 +1,7 @@
 ---
 type: blog
 title: "Marina"
-description: Specialist Technician
+description: Bioinformatician
 date: 2023-10-10T22:44:37+08:00
 draft: false
 series:
@@ -15,9 +15,6 @@ authors:
 aliases:
   - /2023/10/replace-meta-modules
 
-menu:
-  main:
-    parent: people
 ---
 
 ## Backgrounds

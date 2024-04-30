@@ -1,0 +1,24 @@
+{{- $poster := .poster }}
+{{- $posterURL := urls.Parse $poster }}
+{{- if not $posterURL.Scheme }}
+  {{- with resources.GetMatch $poster }}
+    {{- $poster = .RelPermalink }}
+  {{- else }}
+    {{- if $poster }}
+      {{- $poster = relURL $poster }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+<video
+  data-setup="{}"
+  preload="auto"
+  class="hb-header-banner-video position-absolute w-100 overflow-hidden"
+  onloadstart="document.querySelector('.hb-header').classList.add('hb-header-banner')"
+  {{ with $poster }}poster="{{ . }}"{{ end }}
+  {{ if default true .muted }}muted{{ end }}
+  loop
+  autoplay>
+  <source
+    src="{{ .src | relURL }}" 
+    {{ with .type }}type="{{ . }}"{{ end }}>
+</video>

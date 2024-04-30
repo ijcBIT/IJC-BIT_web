@@ -16,8 +16,8 @@ imports:
 
   - path: github.com/hbstack/google-fonts
   # gallery modules.
-  - path: github.com/hbstack/gallery
-  - path: github.com/hbstack/gallery/modules/breadcrumb
+  # - path: github.com/hbstack/gallery
+  # - path: github.com/hbstack/gallery/modules/breadcrumb
 
   # icons modules
   - path: github.com/hugomods/icons/vendors/font-awesome
@@ -48,7 +48,7 @@ imports:
 
   # recommended modules
   - path: github.com/hbstack/back-to-top
-  - path: github.com/hbstack/bigger-picture
+  #- path: github.com/hbstack/bigger-picture
   - path: github.com/hbstack/code-block-panel
   - path: github.com/hbstack/docs
   - path: github.com/hbstack/docs/modules/breadcrumb
@@ -64,7 +64,7 @@ imports:
   - path: github.com/hbstack/mermaid
   - path: github.com/hugomods/katex
   - path: github.com/hbstack/bootstrap
-  - path: github.com/hugomods/images
+  #- path: github.com/hugomods/images
   - path: github.com/hugomods/shortcodes
   - path: github.com/hbstack/footer
   - path: github.com/hbstack/footer/modules/socials

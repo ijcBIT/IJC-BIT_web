@@ -1,0 +1,9 @@
+{{- define "main" }}
+  {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-main-begin") }}
+  {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-doc-content-begin") }}
+  <div class="hb-docs-doc-content hb-module">
+    {{ .Content }}
+  </div>
+  {{- $cols := partialCached "hb/modules/blog/functions/list-cols" . }}
+  {{ partial "hb/modules/people/cards" (dict "Pages" .Paginator.Pages "Cols" $cols) }}
+{{- end -}}

@@ -1,3 +1,7 @@
 .hb-featured-img {
     object-fit: cover;
+    object-position: top;  
+    pointer-events: none;
+    padding: 0 !important;
+    height: 30rem;    
 }
