@@ -32,7 +32,7 @@ imports:
   - path: github.com/hbstack/blog/modules/toc-scrollspy
 
   # blog content panel
-  - path: github.com/hbstack/blog/modules/content-panel
+  # - path: github.com/hbstack/blog/modules/content-panel
 
   # docs table of contents scrollspy
   - path: github.com/hbstack/docs/modules/toc-scrollspy

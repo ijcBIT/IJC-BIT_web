@@ -6,11 +6,6 @@
 
 /*! purgecss end ignore */
 
-/*div {
-    display: block;
-    unicode-bidi: isolate;
-}*/
-
 .hb-header-logo {
     height: 64px;
 }
@@ -42,7 +37,7 @@
     color: #3c86a8
  }
 
- kbd {
+kbd {
     background-color: #00bfd6 
 }
 
@@ -171,16 +166,6 @@ footer .footer-flex-col{
     color: white;
 }
 
-section[data-section-id="people"]
-.section-background {
-    background: linear-gradient(162deg, #05494a, #70b98d, #05494a, #0a5c5d);
-    background-size: 800% 800%;
-
-    -webkit-animation: AnimationName 38s ease infinite;
-    -moz-animation: AnimationName 38s ease infinite;
-    animation: AnimationName 38s ease infinite;
-}
-
 .btn-primary {
     --hb-btn-color: #fff;
     --hb-btn-bg: #00bfd6;
@@ -210,3 +195,20 @@ section[data-section-id="people"]
         flex-direction: column;
     }
 }
+
+a {
+    color: #00bfd6;
+}
+
+h3, .h3 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    color: #09CE9D;
+}
+
+h1 {
+    color: #00bfd6;
+}
+

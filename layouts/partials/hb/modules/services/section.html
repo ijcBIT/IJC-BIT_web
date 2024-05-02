@@ -1,0 +1,57 @@
+{{- define "walk-services-section-tree" }}
+    {{- $weighted := sort (where .Pages "Params.nav_weight" ">" 0) "Params.nav_weight" }}
+    {{- $pages := union $weighted (sort .Pages "Title") }}
+    {{- range $i, $page := $pages }}
+      {{- $last := eq (add $i 1) (len $pages) }}
+      {{- if .IsSection }}
+        <li
+          {{ if not $last }}class="mb-4"{{ end }}>
+          <a class="fs-6 text-decoration-none" href="{{ .RelPermalink }}">
+            <h2>{{- .Title -}}</h2>
+            <div style="display: flex;" > 
+              <div class="hb-blog-post-card-wrapper me-md-2 mt-2 mt-md-0" style="width: 100%;">
+                {{ partial "hb/modules/people/card-img" $page }}
+              </div>
+              <div class="mt-1 text-body-secondary">{{- default .Summary .Description -}}</div>
+            </div>            
+          </a>                    
+          <ul class="list-unstyled ps-4 pt-2 mt-2 border-start">
+            {{ template "walk-services-section-tree" . }}
+          </ul>
+        </li>
+      {{- else }}
+        <li
+          {{ if not $last }}class="mb-4"{{ end }}>
+          <a class="fs-6 text-decoration-none" href="{{ .RelPermalink }}">
+            <h2>{{- .Title -}}</h2>
+            <div style="display: flex;" > 
+              <div class="hb-blog-post-card-wrapper me-md-2 mt-2 mt-md-0" style="width: 100%;">
+                {{ partial "hb/modules/people/card-img" $page }}
+              </div>
+              <div class="mt-1 text-body-secondary">{{- default .Summary .Description -}}</div>
+            </div>
+          </a>
+        </li>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+
+<div class="hb-docs-doc-intro hb-module">
+    <h1 class="hb-docs-doc-title mb-0">{{ .Title }}</h1>
+    {{- with .Description }}
+      <p class="lead mt-3">{{ . }}</p>
+    {{- end }}
+</div>
+{{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-doc-content-begin") }}
+<div class="hb-docs-doc-content hb-module">
+  {{ .Content }}
+  {{- if .Pages }}
+    <ul class="list-unstyled border-top pt-3">
+      {{ template "walk-services-section-tree" . }}
+    </ul>
+  {{- end }}
+</div>
+{{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-doc-content-end") }}
+{{ partial "hb/modules/docs/doc/comments" . }}
+  
+  

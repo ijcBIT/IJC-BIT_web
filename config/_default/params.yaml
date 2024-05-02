@@ -1,6 +1,8 @@
 description:  Josep Carreras Leukaemia Research Institute - bioinformatics unit
               
 hb:
+  featured_image:
+    size: x
   # override SASS variables, please replace the dash with underline, e.g. `list-group-color` should be `list_group_color`.
   # styles:
   #   primary: '#6610f2'
@@ -8,7 +10,7 @@ hb:
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
   
-  full_width: false # when true, the layout takes full width globally.
+  full_width: true # when true, the layout takes full width globally.
   logo: images/logo.png
   header:
     brand: IJC Bioinformatics # the brand name, leave it empty to use site's title.
@@ -29,6 +31,21 @@ hb:
   terms:
     # the paginate for categories, tags, series list pages.
     paginate: 12
+  docs:
+    navs_border: true
+    social_share_buttons:
+      alignment: center
+      labels: false
+      size: 2em
+      media:
+        - twitter
+        - facebook
+        - linkedin
+        - sinaweibo
+        - email
+        - reddit
+        - telegram
+        - whatsapp
   blog:
     sidebar:
       profile:
@@ -36,11 +53,11 @@ hb:
         title: ''
         description: ''
         company: ''
-        #location: Carretera de Can Ruti,Camí de les Escoles, s/n, 08916 Badalona, Barcelona. Spain
-        #socials:
-        #  github: ijcBIT
-        #  x: ijcBIT
-        #  rss: true
+        location: Carretera de Can Ruti,Camí de les Escoles, s/n, 08916 Badalona, Barcelona. Spain
+        socials:
+         github: ijcBIT
+         x: ijcBIT
+         rss: true
       posts:
         recent_count: 5 # the number of recent posts.
         featured_count: 5 # the number of featured posts.
@@ -59,6 +76,7 @@ hb:
       #   - software
       #   - training
          - publications
+      #   - services
       #   - people
   content_panel:
     repo:
@@ -118,18 +136,18 @@ hugopress:
         hb-footer-end:
           cacheable: true
         # see layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html.
-        # hb-blog-sidebar:
-        #  cacheable: true
-        #  weight: 1        
-    # change the order of sidebar modules.
-    # hb-blog-sidebar-taxonomies:
-    #   hooks:
-    #     hb-blog-sidebar:
-    #       weight: 3
-    # hb-blog-sidebar-posts:
-    #   hooks:
-    #     hb-blog-sidebar:
-    #       weight: 2
+        hb-blog-sidebar:
+         cacheable: true
+         weight: 1        
+    #change the order of sidebar modules.
+    hb-blog-sidebar-taxonomies:
+      hooks:
+        hb-blog-sidebar:
+          weight: 3
+    hb-blog-sidebar-posts:
+      hooks:
+        hb-blog-sidebar:
+          weight: 2
 decap_cms:
   # _js_url: http://localhost:8080/dist/decap-cms.js
   _preview_templates:
