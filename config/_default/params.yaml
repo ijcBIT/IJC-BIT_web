@@ -72,10 +72,10 @@ hb:
       taxonomies: false # remove the taxonomies stat from the homepage.
       featured_posts: 5 # the number of the featured posts.
       main_sections: # leave it empty to include all regular pages.
-      #   - contact
+         - contact
       #   - software
       #   - training
-         - publications
+      #   - publications
       #   - services
       #   - people
   content_panel:
@@ -136,9 +136,9 @@ hugopress:
         hb-footer-end:
           cacheable: true
         # see layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html.
-        hb-blog-sidebar:
-         cacheable: true
-         weight: 1        
+        # hb-blog-sidebar:
+        # cacheable: true
+        # weight: 1        
     #change the order of sidebar modules.
     hb-blog-sidebar-taxonomies:
       hooks:
