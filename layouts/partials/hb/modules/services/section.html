@@ -8,7 +8,7 @@
           {{ if not $last }}class="mb-4"{{ end }}>
           <a class="fs-6 text-decoration-none" href="{{ .RelPermalink }}">
             <h2>{{- .Title -}}</h2>
-            <div class="hb-blog-post-card-wrapper me-md-2 mt-2 mt-md-0" style="float: left;">
+            <div class="hb-blog-post-card-wrapper me-md-2 mt-2 mt-md-0" style="float: left;margin-right: 1em;">
               {{ partial "hb/modules/images/card-img" (dict "Page" $page "Class" "services_section_img")}}
             </div>
             <div class="mt-1 text-body-secondary">{{- default .Summary .Description -}}</div>            

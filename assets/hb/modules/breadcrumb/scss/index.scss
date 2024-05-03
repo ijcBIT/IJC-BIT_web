@@ -5,6 +5,7 @@
     white-space: nowrap;
     top: 250px;
     position: relative;
+    z-index: 1000;
 
     .breadcrumb-item {
         background: var(--hb-secondary-bg);
@@ -43,30 +44,6 @@
 
         a {
             padding-left: 0.75rem;
-        }
-    }
-
-    @include media-breakpoint-down(md) {
-        .breadcrumb-item {
-            max-width: 240px;
-
-            &:not(:first-child) {
-                &:not(:last-child) {
-                    align-items: center;
-                    display: flex;
-                    justify-content: center;
-                    width: 2.75rem;
-
-                    a {
-                        display: none;
-                    }
-
-                    &::after {
-                        content: "...";
-                        margin-top: -0.5rem;
-                    }
-                }
-            }
         }
     }
 }

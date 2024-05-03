@@ -4,8 +4,9 @@ type: blog
 params:
     meta: false
     full_width: true 
+    toc: false
 images:
-  - data_analysis2.jpeg
+  - IMG_8300.jpeg
 menu:
   main:
     identifier: software

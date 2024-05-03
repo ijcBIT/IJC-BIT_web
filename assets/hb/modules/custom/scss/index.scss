@@ -19,6 +19,7 @@
     background-size: 100%, 2000px 80px;
     background-position: center bottom;
     background-repeat: no-repeat, repeat-x;
+    z-index: 5;
 }
 
 .hb-header-nav {
@@ -74,8 +75,8 @@ ul.navbar-nav li.nav-item a.active {
 
 
 .hb-header-banner-inner {
-    margin: 5vh;
-    padding: 3vh;
+    margin:0.5em;    
+    padding:20px;  
     color: #6A8EA0;
     background-color: #f9f9fd;
     border-radius: 10px; 
@@ -181,7 +182,7 @@ footer .footer-flex-col{
     --hb-btn-bg: #4e738900;
 }
 
-.hb-header-banner-inner  .py-3 {
+.hb-header-banner-inner .py-3 {
     --padding-top: 0 !important;
     --padding-bottom: 0 !important; 
 }
@@ -220,10 +221,15 @@ h1 {
     background-color: #ffffff;
     box-shadow: 0px 0px 31px -10px rgba(17, 68, 114, 0.23);
     margin:0.5em;    
-    padding:20px;    
+    padding:20px;   
+    overflow: hidden; /* Hide any overflow content */ 
 }
 
 
 .hb-docs-nav {
+    height: auto !important;
+}
+
+.hb-docs-doc-toc {
     height: auto !important;
 }

@@ -3,9 +3,9 @@ title: Data analysis
 type: services
 nav_weight: 1
 card_img:
-  - data_analysis2.jpeg?height=150
+  - IMG_8319.jpeg?height=150
 images:
-  - data_analysis2.jpeg
+  - IMG_8319.jpeg
 menu:
   main:
     parent: services
@@ -15,9 +15,13 @@ menu:
     #   icon:
     #     vendor: bootstrap
     #     name: boxes
+Summary:
+  We process and analyze data from various Omics domains and technologies (sequencing,microarrays) for human and mouse. All of our analyses include multiple quality control steps and preprocessing. For sequencing data, reads are trimmed, filtered, and aligned against a reference sequence, while microarray signals undergo signal transformation and normalization.
 ---
 
-We process and analyze data from various Omics domains and technologies (sequencing,microarrays) for human and mouse. All of our analyses include multiple quality control steps and preprocessing. For sequencing data, reads are trimmed, filtered, and aligned against a reference sequence, while microarray signals undergo signal transformation and normalization
+We process and analyze data from various Omics domains and technologies (sequencing,microarrays) for human and mouse. All of our analyses include multiple quality control steps and preprocessing. For sequencing data, reads are trimmed, filtered, and aligned against a reference sequence, while microarray signals undergo signal transformation and normalization.
+
+<div class="ijc_bit_card">
 
 ## Genomics
 
@@ -30,6 +34,9 @@ Our analyses:
 - Variant analysis (SNP, indels, copy number variation, structural variations)
 
 - Variant annotation (predict effect on gene expression or protein function, clinical relevance)
+
+</div>
+<div class="ijc_bit_card">
 
 ## Transcriptomics
 
@@ -56,6 +63,9 @@ Our analyses:
 - Variant calling (RNA editing)
 
 - Cell type deconvolution (bulk mRNA-seq)
+
+</div>
+<div class="ijc_bit_card">
 
 ## Epigenomics
 
@@ -97,6 +107,9 @@ Our analyses:
 
 - Differential analysis
 
+</div>
+<div class="ijc_bit_card">
+
 ## Epitranscriptomics
 
 Similarly to epigenomic modifications, epitranscriptomic modifications are modifications to the transcriptome that do not alter the underlying RNA sequence. Studying these modifications allows insight into RNA biology, cellular processes and mechanism that can be important in disease.
@@ -114,3 +127,5 @@ Our analyses:
 - Motif analysis
 
 - Differential analysis
+
+</div>

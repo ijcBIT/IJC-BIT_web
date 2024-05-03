@@ -2,7 +2,7 @@
 title: Publications
 type: docs
 images:
-  - data_analysis2.jpeg
+  - IMG_8310.jpeg
 menu:
   main:
     identifier: publications
@@ -12,6 +12,9 @@ menu:
     #     vendor: fas
     #     name: newspaper
 ---
+
+<div class="ijc_bit_card">
+
 Arribas, V., Onetti, Y., Ramiro-Pareta, M., Villacampa, P., Beck, H., Alberola, M., Esteve-Codina, A., Merkel, A., Sperandio, M., Martínez-Estrada, O. M., Schmid, B., & Montanez, E. (2024). Endothelial TDP-43 controls sprouting angiogenesis and vascular barrier integrity, and its deletion triggers neuroinflammation. *JCI Insight*, *9*(5). <https://doi.org/10.1172/jci.insight.177819>
 
 García-Vílchez, R., Añazco-Guenkova, A. M., Dietmann, S., López, J., Morón-Calvente, V., D’Ambrosi, S., Nombela, P., Zamacola, K., Mendizabal, I., García-Longarte, S., Zabala-Letona, A., Astobiza, I., Fernández, S., Paniagua, A., Miguel-López, B., Marchand, V., Alonso-López, D., Merkel, A., García-Tuñón, I., … Blanco, S. (2023). METTL1 promotes tumorigenesis through tRNA-derived fragment biogenesis in  prostate cancer. *Molecular Cancer*, *22*(1), 119. <https://doi.org/10.1186/s12943-023-01809-8>
@@ -27,3 +30,5 @@ Cristalli, C., Manara, M. C., Valente, S., Pellegrini, E., Bavelloni, A., De Feo
 Blecua, P., Davalos, V., de Villasante, I., Merkel, A., Musulen, E., Coll-SanMartin, L., & Esteller, M. (2022). Refinement of computational identification of somatic copy number alterations  using DNA methylation microarrays illustrated in cancers of unknown primary. *Briefings in Bioinformatics*. <https://doi.org/10.1093/bib/bbac161>
 
 Merkel, A., & Esteller, M. (2022). Experimental and Bioinformatic Approaches to Studying DNA Methylation in Cancer. *Cancers*, *14*(2). <https://doi.org/10.3390/CANCERS14020349>
+
+</div>

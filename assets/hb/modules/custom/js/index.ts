@@ -14,9 +14,10 @@ $("#sendMessage").on("click", function() {
     var email = $("#contact-email").val();
     if (validateEmail(email)) {
         message = `Name: ` +  $("#contact-name").val()  + `
-                   Email: `+  email  + `
-                   Subject: `+  $("#contact-subject").val()  + `
-                   Message: `+  $("#contact-message").val();
+                   Email: ` +  email  + `
+                   Institution/Company: ` + $("#contact-institution_company").val() + `
+                   Subject: ` +  $("#contact-subject").val()  + `
+                   Message: ` +  $("#contact-message").val();
 
         $.ajax({
             url: "//formspree.io/f/mbjnqvnq", 
@@ -27,6 +28,7 @@ $("#sendMessage").on("click", function() {
           // Clear the value of each input and textarea field within the form
         $("#contact-name").val("");
         $("#contact-email").val("");
+        $("#contact-institution_company").val("");
         $("#contact-subject").val("");
         $("#contact-message").val("");
         alert('Thanks for the email, we\'ll be in touch promptly.');

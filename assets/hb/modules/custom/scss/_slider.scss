@@ -2,11 +2,25 @@
     position: relative;
     display: flex;
     background: #00bfd6 url(/images/bgs-lines-blue.jpg) no-repeat left center;
+    flex-direction: row;
 }
 
 .hb-main{
     position: relative;
 }
+
+@media (max-width: 800px) {
+    .slider-ijc-bit {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 400px) {
+    .hb-main{
+        top: -50px;
+    }
+}
+
 
 @media (max-width: 400px) {
     .hb-main{
