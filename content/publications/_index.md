@@ -1,6 +1,8 @@
 ---
 title: Publications
 type: docs
+images:
+  - data_analysis2.jpeg
 menu:
   main:
     identifier: publications

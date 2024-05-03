@@ -10,11 +10,11 @@
   {{- $thumbnailPos = site.Params.hb.blog.post_thumbnail_position }}
 {{- end }}
 <div
-  class="hb-blog-post-card card border-0 overflow-hidden h-100{{ cond $modularize ` hb-module` ` bg-transparent` }} mb-0">
+  class="hb-blog-post-card card border-0 overflow-hidden h-100{{ cond $modularize ` hb-module` ` bg-transparent` }} mb-0 ijc_bit_card">
   {{- if and $thumbnail (ne $thumbnailPos "top") }}
     {{ printf `<div class="d-flex flex-column flex-md-row">` | safeHTML }}
     <div class="hb-blog-post-card-wrapper me-md-2 mt-2 mt-md-0">
-      {{ partial "hb/modules/people/card-img" $page }}
+      {{ partial "hb/modules/images/card-img" (dict "Page" $page "Class" "hb-blog-people-card-img")}}
     </div>
     {{ printf `<div class="hb-blog-post-card-body overflow-hidden">` | safeHTML }}
   {{- end }}

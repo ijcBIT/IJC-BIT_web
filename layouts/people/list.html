@@ -1,6 +1,5 @@
 {{- define "main" }}
-  {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-main-begin") }}
-  {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-doc-content-begin") }}
+  {{ partial "hb/modules/featured-image/slider" . }}
   <div class="hb-docs-doc-content hb-module">
     {{ .Content }}
   </div>

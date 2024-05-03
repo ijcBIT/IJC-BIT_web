@@ -1,9 +1,6 @@
 {{- define "main" }}
-  {{ partial "hb/modules/featured-image/slider" . }}
+  {{ partial "hb/modules/featured-image/slider" . }}  
   <div class="hb-docs">
-    <div class="hb-docs-sidebar" tabindex="-1" data-bs-hide="focusout">
-      {{ partial "hb/modules/docs/nav" . }}
-    </div>
     <div class="hb-docs-main">
       <div class="hb-docs-doc">
         <div class="hb-docs-doc-intro hb-module">
@@ -20,7 +17,7 @@
           {{ partial "hb/modules/docs/toc" . }}
         </div>
         <div class="hb-docs-doc-main">
-          {{ partial "hb/modules/services/doc" . }}
+          {{ partial "hb/modules/docs/doc" . }}
         </div>
       </div>
       {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-main-end ") }}

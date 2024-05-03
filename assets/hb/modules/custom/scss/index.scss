@@ -6,6 +6,8 @@
 
 /*! purgecss end ignore */
 
+@import 'slider';
+
 .hb-header-logo {
     height: 64px;
 }
@@ -212,3 +214,16 @@ h1 {
     color: #00bfd6;
 }
 
+.ijc_bit_card {
+    margin-right: 20px;
+    border-radius: 0.9em;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 31px -10px rgba(17, 68, 114, 0.23);
+    margin:0.5em;    
+    padding:20px;    
+}
+
+
+.hb-docs-nav {
+    height: auto !important;
+}

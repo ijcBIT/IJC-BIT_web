@@ -1,6 +1,8 @@
 ---
 title: What we can do
 type: services
+images:
+  - data_analysis2.jpeg
 menu:
   main:
     identifier: services

@@ -2,9 +2,10 @@
 title: Data analysis
 type: services
 nav_weight: 1
+card_img:
+  - data_analysis2.jpeg?height=150
 images:
   - data_analysis2.jpeg
-  - data_analysis.jpeg
 menu:
   main:
     parent: services

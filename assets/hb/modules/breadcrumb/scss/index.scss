@@ -3,6 +3,8 @@
     flex-wrap: nowrap;
     overflow: hidden;
     white-space: nowrap;
+    top: 250px;
+    position: relative;
 
     .breadcrumb-item {
         background: var(--hb-secondary-bg);
@@ -18,7 +20,7 @@
         &:focus,
         &:hover,
         &:active {
-            background: #d97a3da6;
+            background: #d9793d;
             color: #FFF;
         }
 

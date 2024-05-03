@@ -1,8 +1,12 @@
 ---
 title: Support
-type: docs
+type: services
 params:
   nav_weight: 3
+card_img:
+  - data_analysis2.jpeg?height=150
+images:
+  - data_analysis2.jpeg
 menu:
   main:
     parent: services

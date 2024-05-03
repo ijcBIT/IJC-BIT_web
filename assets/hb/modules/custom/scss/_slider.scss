@@ -1,0 +1,38 @@
+.slider-ijc-bit {
+    position: relative;
+    display: flex;
+    background: #00bfd6 url(/images/bgs-lines-blue.jpg) no-repeat left center;
+}
+
+.hb-main{
+    position: relative;
+}
+
+@media (max-width: 400px) {
+    .hb-main{
+        top: -25px;
+    }
+}
+
+@media (min-width: 400px) {
+    .hb-main{
+        top: -50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hb-main{
+        top: -75px;
+    }
+}
+
+.slider-ijc-bit::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    z-index: 2;
+    top: 0;
+    background: transparent url(/images/curve2.png) no-repeat top center;
+    background-size: 100%, cover;
+}

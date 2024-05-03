@@ -148,6 +148,11 @@ hugopress:
       hooks:
         hb-blog-sidebar:
           weight: 2
+    hb-docs:
+      hooks:
+        hb-header-nav-begin:
+          disable: true
+
 decap_cms:
   # _js_url: http://localhost:8080/dist/decap-cms.js
   _preview_templates:
