@@ -17,7 +17,7 @@ menu:
     #     vendor: bootstrap
     #     name: boxes
 summary:
-  Aside from our standard analyses above, we develop custom workflows to fit your needs. This can be for a specific research question you have, an approach you want to replicate (maybe from a publication you have read) or an automated analysis pipeline you need for a new technology you have developed.
+  We develop tailored solutions for your specific needs, from custom bioinformatic analyses to databases and web applications, to engaging data visualizations. 
 ---
 <div class="ijc_bit_card">
 

@@ -14,15 +14,7 @@ menu:
     weight: 3
 
 Summary:
-  <p>
-  We provide consultancies for all aspects bioinformatic data analysis including experimental design, statistical analysis, workflow design and tool selection.
-  </p>
-  <p>
-  We regularly hold bioinformatic workshops and seminars at the IJC.
-  </p>
-  <p>
-  We frequently supervise students (BSc/MSc/PhD) in our facility. 
-  </p>    
+  We support your research. Consult us for advice, manuscripts or grant proposals. Widen your skill set with our training courses or through an internship, or let us manage your data FAIR and hassle free. 
 ---
 <div class="ijc_bit_card">
  
@@ -44,7 +36,7 @@ We help you prepare your manuscripts, including methods, figures, and results, a
 
 
 
-We regularly hold bioinformatic <a href="https://ijcbit.github.io/Workshops/" target="_blank">workshops</a> and seminars at the <a href="https://www.carrerasresearch.org/" target="_blank">IJC</a>. If you would like to participate in one of our <a href="https://ijcbit.github.io/Workshops/" target="_blank">workshops</a> or want to propose a topic, please <a href="/"> contact us</a>.
+We regularly hold bioinformatic <a href="/training" >workshops</a> and seminars at the <a href="https://www.carrerasresearch.org/" target="_blank">IJC</a>. If you would like to participate in one of our <a href="/training" >workshops</a> or want to propose a topic, please <a href="/"> contact us</a>.
 
 </div>
 <div class="ijc_bit_card">
