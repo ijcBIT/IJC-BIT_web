@@ -16,7 +16,7 @@ menu:
     #     vendor: bootstrap
     #     name: boxes
 Summary:
-  We process and analyze data from various Omics domains and technologies (sequencing,microarrays) for human and mouse. All of our analyses include multiple quality control steps and preprocessing. For sequencing data, reads are trimmed, filtered, and aligned against a reference sequence, while microarray signals undergo signal transformation and normalization.
+  We process and analyze data from various Omics domains and technologies for human and mouse. All of our analyses include quality control steps and preprocessing. For sequencing data, reads are trimmed, filtered, and aligned against a reference sequence, while microarray signals undergo signal transformation and normalization.
 ---
 
 We process and analyze data from various Omics domains and technologies (sequencing,microarrays) for human and mouse. All of our analyses include multiple quality control steps and preprocessing. For sequencing data, reads are trimmed, filtered, and aligned against a reference sequence, while microarray signals undergo signal transformation and normalization.
