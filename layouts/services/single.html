@@ -2,7 +2,9 @@
   {{ partial "hb/modules/featured-image/slider" . }}
   <div class="hb-docs">
     <div class="hb-docs-sidebar" tabindex="-1" data-bs-hide="focusout">
-      {{ partial "hb/modules/docs/nav" . }}
+      <div class="hb-docs-doc-toc ps-lg-3 pe-lg-2 text-body-secondary">
+        {{ partial "hb/modules/services/toc" . }}
+      </div>
     </div>
     <div class="hb-docs-main">
       <div class="hb-docs-doc">
@@ -15,9 +17,6 @@
           {{- with .Description }}
             <p class="lead">{{ . }}</p>
           {{- end }}
-        </div>
-        <div class="hb-docs-doc-toc ps-lg-3 pe-lg-2 text-body-secondary">
-          {{ partial "hb/modules/docs/toc" . }}
         </div>
         <div class="hb-docs-doc-main">
           {{ partial "hb/modules/services/doc" . }}

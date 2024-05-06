@@ -33,7 +33,7 @@ MethylationDB has been created to help researchers navigate the DNA methylation 
 
 ## EPipe
 <div class="software_logo card">
-    <img src="methylationdb_logo.svg" style="width: 100%; height: 100%;" />
+    <img src="epipe_logo.svg" style="width: 100%; height: 100%;" />
 </div>
 
 EPipe is a bioinformatics pipeline designed for the fully automated (start-to-end) analysis of methylation data from the Illumina Infinium BeadChip microarray (currently 450k, EPIC and EPIC v2). It is highly flexible, with traceable and reproducible execution and can be run locally, in parallel or on a distributed cluster.
