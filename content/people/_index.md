@@ -11,7 +11,7 @@ Meta:
 menu:
   main:
     identifier: people
-    weight: 8
+    weight: 6
     # params:
     #   icon:
     #     vendor: fas

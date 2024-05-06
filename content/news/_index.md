@@ -3,7 +3,7 @@ title: News
 menu:
   main:
     identifier: news
-    weight: 5
+    weight: 1
     # params:
     #   icon:
     #     vendor: bs

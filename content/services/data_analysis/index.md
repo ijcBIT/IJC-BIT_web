@@ -3,7 +3,7 @@ title: Data analysis
 type: services
 nav_weight: 1
 card_img:
-  - IMG_8319.jpeg?height=150
+  - IMG_8319.jpeg?fill=225x150,Center
 images:
   - IMG_8319.jpeg
 menu:

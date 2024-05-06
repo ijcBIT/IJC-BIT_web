@@ -4,7 +4,7 @@ type: services
 params:
   nav_weight: 3
 card_img:
-  - IMG_8306.jpeg?height=150
+  - IMG_8306.jpeg?fill=225x150,Center
 images:
   - IMG_8306.jpeg
 menu:
@@ -30,7 +30,10 @@ Summary:
 
 We provide consultancies for all aspects bioinformatic data analysis including experimental design, statistical analysis, workflow design and tool selection. <a href="/"> Contact us</a> and we will discuss your needs.
 
-Research proposals/ manuscripts
+</div>
+<div class="ijc_bit_card">
+
+## Research proposals/ manuscripts
 
 We help you prepare manuscripts, including methods, figures, and results, as well as research proposals, covering budgets, work packages, and data management plans. <a href="/"> Contact us</a> for your next project.
 

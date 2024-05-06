@@ -6,7 +6,7 @@ images:
 menu:
   main:
     identifier: services
-    weight: 2
+    weight: 3
     # params:
     #   icon:
     #     vendor: bootstrap

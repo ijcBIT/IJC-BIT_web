@@ -21,24 +21,25 @@
         <div class="invalid-feedback">
         {{ i18n "contact_name" | lower | i18n "hb_form_field_invalid_feedback" }}
         </div>
+        
     </div>
+    &nbsp;&nbsp; &nbsp;
     <div class="form-floating mb-3 required">
       <input class="form-control" id="contact-institution_company" name="name" required />
       <label for="contact-institution_company">institution or company</label>      
-  </div>
-    
-    <div class="form-floating mb-3 required">
-        <input
-        type="email"
-        class="form-control"
-        id="contact-email"
-        name="email"
-        aria-describedby="contact-email-help"
-        required />
-        <label for="contact-email">{{ i18n "contact_email" }}</label>
-        <div class="invalid-feedback">
+    </div>
+  </div>  
+  <div class="form-floating mb-3 required">
+    <input
+      type="email"
+      class="form-control"
+      id="contact-email"
+      name="email"
+      aria-describedby="contact-email-help"
+      required />
+    <label for="contact-email">{{ i18n "contact_email" }}</label>
+    <div class="invalid-feedback">
         {{ i18n "contact_email" | lower | i18n "hb_form_field_invalid_feedback" }}
-        </div>
     </div>
   </div>
   <div class="form-floating mb-3 required">

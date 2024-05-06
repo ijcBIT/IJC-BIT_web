@@ -3,7 +3,7 @@ title: Pricing
 menu:
   main:
     identifier: pricing
-    weight: 9
+    weight: 8
     # params:
     #   icon:
     #     vendor: tabler/outline

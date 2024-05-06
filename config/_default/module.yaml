@@ -82,6 +82,6 @@ imports:
   - path: github.com/hbstack/syntax-highlighting/styles/gruvbox
   - path: github.com/hbstack/noscript
   - path: github.com/hbstack/progress-bar
-  - path: github.com/hbstack/pwa
+  # - path: github.com/hbstack/pwa
   - path: github.com/hbstack/scrollbar
 

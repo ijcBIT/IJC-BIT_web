@@ -3,7 +3,7 @@ title: Events
 menu:
   main:
     identifier: events
-    weight: 6
+    weight: 2
     # params:
     #   icon:
     #     vendor: bootstrap
