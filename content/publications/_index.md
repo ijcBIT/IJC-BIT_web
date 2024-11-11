@@ -15,6 +15,8 @@ menu:
 
 <div class="ijc_bit_card">
 
+Cruzado, J. M., Sola, A., Pato, M. L., Manonelles, A., Varela, C., Setién, F. E., Quero, C., Heald, J. S., Piñeyro, D., Amaya-Garrido, A., Doladé, N., Codina, S., Couceiro, C., Bolaños, N., Gomà, M., Vigués, F., Merkel, A., & Berdasco, M. (2024). Severe ischemia and reperfusion injury induces epigenetic inactivation of LHX1 in kidney progenitor cells after kidney transplantation. American Journal of Transplantation. <https://doi.org/10.1016/j.ajt.2024.11.003>
+
 Arribas, V., Onetti, Y., Ramiro-Pareta, M., Villacampa, P., Beck, H., Alberola, M., Esteve-Codina, A., Merkel, A., Sperandio, M., Martínez-Estrada, O. M., Schmid, B., & Montanez, E. (2024). Endothelial TDP-43 controls sprouting angiogenesis and vascular barrier integrity, and its deletion triggers neuroinflammation. *JCI Insight*, *9*(5). <https://doi.org/10.1172/jci.insight.177819>
 
 García-Vílchez, R., Añazco-Guenkova, A. M., Dietmann, S., López, J., Morón-Calvente, V., D’Ambrosi, S., Nombela, P., Zamacola, K., Mendizabal, I., García-Longarte, S., Zabala-Letona, A., Astobiza, I., Fernández, S., Paniagua, A., Miguel-López, B., Marchand, V., Alonso-López, D., Merkel, A., García-Tuñón, I., … Blanco, S. (2023). METTL1 promotes tumorigenesis through tRNA-derived fragment biogenesis in  prostate cancer. *Molecular Cancer*, *22*(1), 119. <https://doi.org/10.1186/s12943-023-01809-8>
