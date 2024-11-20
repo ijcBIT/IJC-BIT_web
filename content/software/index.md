@@ -17,7 +17,7 @@ menu:
     #     name: laptop
 ---
 
-The Bioinformatics Unit develops software for specific research needs, from automated data analysis to data management solutions. Here some of our software:
+We develop software for specific research needs, from automated data analysis pipelines to data management solutions. Here some examples:
 
 <div class="ijc_bit_card" onclick="window.open('https://methylationdb.carrerasresearch.org', '_blank');"> 
 
@@ -26,7 +26,7 @@ The Bioinformatics Unit develops software for specific research needs, from auto
     <img src="methylationdb_logo.svg" style="width: 100%; height: 100%;" />
 </div>
 
-MethylationDB has been created to help researchers navigate the DNA methylation microarray data produced by the Genomics Unit at the Josep Carreras Institute (IJC). The portal allows researchers to search for samples, download metadata, raw data (.idats) and processed data (beta values).
+MethylationDB is the data portal for DNA methylation microarray data produced by the Genomics Unit at the Josep Carreras Institute (IJC). The portal allows users to compare their data with data from collaborators or public data sources, search for samples, download metadata, raw data and processed data. Methylation values can be extracted and visualized genome-wide of for a single gene or list of genes.
 </div>
 
 <div class="ijc_bit_card" onclick="window.open('https://github.com/ijcBIT/epipe', '_blank');"> 
@@ -36,6 +36,6 @@ MethylationDB has been created to help researchers navigate the DNA methylation 
     <img src="epipe_logo.svg" style="width: 100%; height: 100%;" />
 </div>
 
-EPipe is a bioinformatics pipeline designed for the fully automated (start-to-end) analysis of methylation data from the Illumina Infinium BeadChip microarray (currently 450k, EPIC and EPIC v2). It is highly flexible, with traceable and reproducible execution and can be run locally, in parallel or on a distributed cluster.
+EPipe is a bioinformatics pipeline designed for the fully automated (start-to-end) analysis of methylation data from the Illumina Infinium BeadChip microarray platform (450k, EPIC v1/v2). It performs quality control, data normalization and differential analysis, while providing clear, user-friendly result reports. EPipe is highly flexible, with traceable and reproducible execution and can be run locally, in parallel or on a distributed cluster.
 
  </div>   

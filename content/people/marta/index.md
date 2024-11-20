@@ -1,7 +1,7 @@
 ---
 type: blog
-title: "Marta"
-description: Student
+title: "Marta Meroño Rafel"
+description: Bioinformatician
 card_img:
   - Marta_s.jpeg
 ---
