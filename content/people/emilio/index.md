@@ -1,7 +1,7 @@
 ---
 type: docs
-title: "Emilio"
-description: Software Enginier
+title: "Emilio Lario"
+description: Software Engineer
 card_img:
   - Emilio_s.jpeg
 ---

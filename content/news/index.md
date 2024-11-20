@@ -29,6 +29,18 @@ menu:
 
 The IJC Bioinformatics Unit is participating in the Can Ruti Core Facility Info day!
 
+The Germans Trias y Pujol Research Institute and the Josep Carreras research Institute are organizing an Info day for the Can Ruti campus to show case the institutes' Core Facilities and their services.
+
 </div>
 
+
+IJC Symposium "Updates on Genetics and Epigenetics of Haematological Malignancies" 20-22 November
+
+The IJC is holding its annual symposium with an impressive line-up of speakers! [link to program] The IJC core facilities have an info table at the symposium and we will be there for a chat and any inquires you might have.
+
+</div>
+
+Latest publication
+
+</div>
 

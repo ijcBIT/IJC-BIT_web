@@ -16,16 +16,16 @@ menu:
     #     vendor: bootstrap
     #     name: boxes
 Summary:
-  We process and analyze data from various Omics domains and technologies for human and mouse. All of our analyses include quality control steps and preprocessing. For sequencing data, reads are trimmed, filtered, and aligned against a reference sequence, while microarray signals undergo signal transformation and normalization.
+  We process and analyze data from various Omics domains and technologies for human and mouse. All of our analyses include quality control steps and preprocessing and we use standardised and highly reproducible analysis pipelines.
 ---
 
-We process and analyze data from various Omics domains and technologies (sequencing,microarrays) for human and mouse. All of our analyses include multiple quality control steps and preprocessing. For sequencing data, reads are trimmed, filtered, and aligned against a reference sequence, while microarray signals undergo signal transformation and normalization.
+ We process and analyze data from various Omics domains and technologies for human and mouse. All of our analyses include quality control steps and preprocessing and we use standardised and highly reproducible analysis pipelines.
 
 <div class="ijc_bit_card">
 
 ## Genomics
 
-The analysis of the genome (DNA) enables the identification of mutations and genetic variations associated to disease and is important, for example, for personalized treatments. For cancer research this is crucial to identify driver mutations (mutated genes that accelerate tumor genesis) and understand tumor evolution (clonality analysis).
+The analysis of the genome (DNA) enables the identification of mutations and genetic variations associated to disease and is important for personalized treatments. In cancer research, this is crucial for identifying driver mutations - genetic alterations that promote tumor development - and for understanding tumor evolution through clonality analysis.
 
 We analyze data from Whole Genome and Exome sequencing (WGS/WES), targeted sequencing, SNP panels and genotyping microarrays.
 
@@ -40,7 +40,7 @@ Our analyses:
 
 ## Transcriptomics
 
-Studyingthe cell’s transcriptome (RNA), aka the ‘read out of the genome’, allows to identify genes and pathways that are involved in specific diseases, conditions or responses to treatments. At the single cell level that can provide insight into rare cell populations and cellular trajectories. At the transcript level it allows insight into RNA diversity and cellular processes/mechanisms that in turn may vary across cell types and individuals.
+Studying the cell’s transcriptome (RNA), aka the ‘read out of the genome’, allows to identify genes and pathways that are involved in specific diseases, conditions or responses to treatments. At the single cell level this can provide insight into rare cell populations and cellular trajectories. At the transcript level it allows insight into RNA diversity and cellular processes/mechanisms that in turn may vary across cell types and individuals.
 
 We analyze data from expression microarrays (miRNA, mRNA) and various types of RNA sequencing protocols (small RNA-seq, mRNA-seq and single cell RNA-seq).
 
@@ -54,7 +54,7 @@ Our analyses:
 
 - Differential expression analysis
 
-- Pathway analysis of differentially expressed genes (up/downregulated)
+- Pathway analysis of differentially expressed genes (up/downregulated)(ORA, GSEA)
 
 - Alternative splicing, transcriptomic diversity
 
@@ -69,7 +69,7 @@ Our analyses:
 
 ## Epigenomics
 
-Epigenomic modifications are modifications that affect the genome without modifying the underlying DNA sequence. These can be chemical modifications such as DNA methylation (= addition of a methyl-group to the 5th C of the cytosine base) or proteins (and their modifications) binding to the DNA that affect the DNA's structural properties (packaging, 3D structure). Modifications of the epigenome are thought to affect the DNA’s transcriptional potential ('chromatin state'), or in other words, regulate gene expression. Theyare used as biomarkers and provide insight into biological mechanisms and processes.
+Epigenomic modifications are modifications that affect the genome without modifying the underlying DNA sequence. These can be chemical modifications such as DNA methylation (= addition of a methyl-group to the 5th C of the cytosine base) or proteins (and their modifications) binding to the DNA altering the DNA's structural properties (packaging, 3D structure). Modifications of the epigenome are thought to affect the DNA’s transcriptional potential ('chromatin state'), or in other words, regulate gene expression. They provide insight into biological mechanisms and processes and are used as biomarkers.
 
 ### DNA methylation
 
@@ -79,11 +79,11 @@ Our analyses:
 
 - Exploratory data analysis (PCA)
 
-- Differential methylation analysis
+- Differential methylation analysis of single CpGs (DMC) and regions (DMRs)
 
-- Functional annotation of differential methylated CpGs and differentially methylated regions (associated genes, overlapping regulatory elements, CGI context)
+- Functional annotation of DMCs and DMRs (associated genes, overlapping regulatory elements, CGI context)
 
-- Identification of different types of methylation regions: unmethylated regions (UMRs), hypermethylated regions (UMRs), partially methylated domains (PMDs)
+- Identification of large scale methylation patterns: unmethylated regions (UMRs), hypermethylated regions (UMRs), partially methylated domains (PMDs)
 
 - Cell type deconvolution
 
@@ -103,7 +103,7 @@ Our analyses:
 
 - Functional annotation peaks (genes, regulatory)
 
-- Motif analysis
+- Binding motif analysis
 
 - Differential analysis
 
@@ -112,7 +112,7 @@ Our analyses:
 
 ## Epitranscriptomics
 
-Similarly to epigenomic modifications, epitranscriptomic modifications are modifications to the transcriptome that do not alter the underlying RNA sequence. Studying these modifications allows insight into RNA biology, cellular processes and mechanism that can be important in disease.
+Similarly to epigenomic modifications, epitranscriptomic modifications are modifications of the transcriptome that do not alter the underlying RNA sequence. Studying these modifications allows insight into RNA biology, cellular processes and mechanism that can be important in development and disease.
 
 We mainly process data from infrared crosslinking Immunopreciptation(irCLIP) for the study of RNA-protein interactions.
 
@@ -124,7 +124,7 @@ Our analyses:
 
 - Functional annotation peaks (RNA biotype, genes, gene region)
 
-- Motif analysis
+- Binding motif analysis
 
 - Differential analysis
 
