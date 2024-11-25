@@ -27,7 +27,9 @@ menu:
 
 </div>
 <p class="global-date-big"> Nov 11, 2024 </p>
-Latest publication
+IJC Bioinformatics Unit Contributes to Study of Severe Ischemia and Reperfusion Injury (IRI) associated with kidney transplantation
+<br><br>
+A new study titled "Severe Ischemia and Reperfusion Injury Induces Epigenetic Inactivation of LHX1 in Kidney Progenitor Cells After Kidney Transplantation" explores the molecular mechanisms behind kidney damage following transplantation. The research, led by Maria Berdasco team ('Epigenetic Therapies') at the IJC, reveals how IRI may hinder kidney repair through epigentic scilencing and provides LHX1 as candidates for potential therapeutic interventions. The IJC Bioinformatics Unit proudly provided the transcriptomic and epigenomic analysis.
 
 </div>
 
