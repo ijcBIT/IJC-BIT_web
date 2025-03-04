@@ -14,6 +14,8 @@ menu:
 ---
 
 <div class="ijc_bit_card">
+  
+Maleno, M.J., Climent, N., Alcami, J., Casanova, V., Coiras, M., Merkel, A., de Villasante, I., Diez-Fuertes, F., Ayala-Suárez, R., Rodriguez-Agustin, A. (2025). Intracellular HIV-1 Tat regulator induces epigenetic changes in the DNA methylation landscape. Frontiers in Immunology.<https://doi.org/10.3389/fimmu.2025.1532692>
 
 Cruzado, J. M., Sola, A., Pato, M. L., Manonelles, A., Varela, C., Setién, F. E., Quero, C., Heald, J. S., Piñeyro, D., Amaya-Garrido, A., Doladé, N., Codina, S., Couceiro, C., Bolaños, N., Gomà, M., Vigués, F., Merkel, A., & Berdasco, M. (2024). Severe ischemia and reperfusion injury induces epigenetic inactivation of LHX1 in kidney progenitor cells after kidney transplantation. American Journal of Transplantation. <https://doi.org/10.1016/j.ajt.2024.11.003>
 
