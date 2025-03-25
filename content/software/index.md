@@ -19,7 +19,8 @@ menu:
 
 We develop software for specific research needs, from automated data analysis pipelines to data management solutions. Here some examples:
 
-<div class="ijc_bit_card" onclick="window.open('https://methylationdb.carrerasresearch.org', '_blank');"> 
+<div class="ijc_bit_card" > 
+<a class="text-decoration-none text-body-secondary"  href="https://methylationdb.carrerasresearch.org target="_blank">
 
 ## MethylationDB
 <div class="software_logo card">
@@ -27,9 +28,11 @@ We develop software for specific research needs, from automated data analysis pi
 </div>
 
 MethylationDB is the data portal for DNA methylation microarray data produced by the Genomics Unit at the Josep Carreras Institute (IJC). The portal allows users to compare their data with data from collaborators or public data sources, search for samples, download metadata, raw data and processed data. Methylation values can be extracted and visualized genome-wide of for a single gene or list of genes.
+</a>
 </div>
 
-<div class="ijc_bit_card" onclick="window.open('https://github.com/ijcBIT/epipe', '_blank');"> 
+<div class="ijc_bit_card"> 
+<a class="text-decoration-none text-body-secondary"  href="https://github.com/ijcBIT/epipe" target="_blank">
 
 ## EPipe
 <div class="software_logo card">
@@ -38,4 +41,17 @@ MethylationDB is the data portal for DNA methylation microarray data produced by
 
 EPipe is a bioinformatics pipeline designed for the fully automated (start-to-end) analysis of methylation data from the Illumina Infinium BeadChip microarray platform (450k, EPIC v1/v2). It performs quality control, data normalization and differential analysis, while providing clear, user-friendly result reports. EPipe is highly flexible, with traceable and reproducible execution and can be run locally, in parallel or on a distributed cluster.
 
+</a>
+ </div>   
+
+<div class="ijc_bit_card" > 
+<a class="text-decoration-none text-body-secondary"  href="/software/bioforms">
+
+## BioForms
+<div class="software_logo card">
+    <img src="iconBioForms.png" style="width: 100%; height: 100%;" />
+</div>
+
+BioForms is a web-based application that allows users to create customizable metadata forms based on predefined templates. These forms ensure data consistency by using controlled vocabularies and ontologies to suggest valid values. BioForms simplifies metadata entry and integrates with the CEDAR Template Editor to enable users to submit form responses. Additionally, it supports Office 365 integration, allowing responses to be exported to Excel and stored in a dedicated SharePoint site for easy access and management.
+</a>
  </div>   

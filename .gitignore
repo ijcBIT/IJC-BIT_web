@@ -5,3 +5,4 @@ public/
 node_modules/
 resources/_gen/
 config/_default/.params.yaml.swp
+_vendor

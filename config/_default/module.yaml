@@ -59,8 +59,8 @@ imports:
   - path: github.com/hbstack/blog/modules/breadcrumb
   - path: github.com/hbstack/blog/modules/featured-image
   - path: github.com/hbstack/blog/modules/heading-sign
-  - path: github.com/hbstack/blog/modules/post-nav
-  - path: github.com/hbstack/blog/modules/related-posts
+  # - path: github.com/hbstack/blog/modules/post-nav
+  # - path: github.com/hbstack/blog/modules/related-posts
   - path: github.com/hbstack/mermaid
   - path: github.com/hugomods/katex
   - path: github.com/hbstack/bootstrap
