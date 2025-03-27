@@ -45,6 +45,13 @@ jobs:
         run: git config --global --add safe.directory /__w/IJC-BIT_web/IJC-BIT_web
         shell: sh
 
+      - name: Generate robots.txt for Staging
+        shell: sh
+        run: |
+          echo "User-agent: *" > ./static/robots.txt
+          echo "Disallow: /" >> ./static/robots.txt
+        # This creates a robots.txt file in the static directory that blocks indexing
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
@@ -55,7 +62,8 @@ jobs:
             --gc \
             --enableGitInfo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            -e production \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"                   
       
       - name: Install GNU tar
         run: apk add --no-cache tar

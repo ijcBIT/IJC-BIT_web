@@ -1,16 +1,28 @@
 ---
 title: Bioforms
-type: blog
+type: services
 params:
     meta: false
     full_width: true 
-    toc: false
+    toc: true
 images:
-  - bioforms/Screenshot.png
+  - Screenshot.png
+card_img:
+  - iconBioForms.png?fill=90x90,Center
+summary:  
+  BioForms is a web-based application that allows users to create customizable metadata forms based on predefined templates. These forms ensure data consistency by using controlled vocabularies and ontologies to suggest valid values. BioForms simplifies metadata entry and integrates with the CEDAR Template Editor to enable users to submit form responses. Additionally, it supports Office 365 integration, allowing responses to be exported to Excel and stored in a dedicated SharePoint site for easy access and management.
 ---
- 
+
+
+
 
 # BioForms
+
+<div class="software_logo card">
+    <img src="iconBioForms.png" style="width: 100%; height: 100%;" />
+</div>
+
+
 BioForms is a web-based application that allows users to create customizable metadata forms based on predefined templates. These forms ensure data consistency by using controlled vocabularies and ontologies to suggest valid values. BioForms simplifies metadata entry and integrates with the CEDAR Template Editor to enable users to submit form responses. Additionally, it supports Office 365 integration, allowing responses to be exported to Excel and stored in a dedicated SharePoint site for easy access and management.
 
 <div class="ijc_bit_card"> 
@@ -38,6 +50,6 @@ By using BioForms, you can streamline the metadata submission process, ensuring 
 
  </div>   
 
-## References:
+## References
 - **BioForms Repository:** [BioForms GitHub Repository](https://github.com/ijcBIT/BioForms)
 - **CEDAR Project:** [CEDAR Template Editor GitHub Repository](https://github.com/metadatacenter)

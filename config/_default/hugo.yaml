@@ -48,6 +48,9 @@ markup:
   tableOfContents:
     endLevel: 6
     startLevel: 2
+  # Ensure SCSS is processed
+  css:
+    enable: true
 
 # see https://gohugo.io/content-management/related/#configure-related-content
 related:

@@ -1,6 +1,6 @@
 ---
 title: Software
-type: blog
+type: software
 params:
     meta: false
     full_width: true 
@@ -41,17 +41,5 @@ MethylationDB is the data portal for DNA methylation microarray data produced by
 
 EPipe is a bioinformatics pipeline designed for the fully automated (start-to-end) analysis of methylation data from the Illumina Infinium BeadChip microarray platform (450k, EPIC v1/v2). It performs quality control, data normalization and differential analysis, while providing clear, user-friendly result reports. EPipe is highly flexible, with traceable and reproducible execution and can be run locally, in parallel or on a distributed cluster.
 
-</a>
- </div>   
-
-<div class="ijc_bit_card" > 
-<a class="text-decoration-none text-body-secondary"  href="/software/bioforms">
-
-## BioForms
-<div class="software_logo card">
-    <img src="iconBioForms.png" style="width: 100%; height: 100%;" />
-</div>
-
-BioForms is a web-based application that allows users to create customizable metadata forms based on predefined templates. These forms ensure data consistency by using controlled vocabularies and ontologies to suggest valid values. BioForms simplifies metadata entry and integrates with the CEDAR Template Editor to enable users to submit form responses. Additionally, it supports Office 365 integration, allowing responses to be exported to Excel and stored in a dedicated SharePoint site for easy access and management.
 </a>
  </div>   
