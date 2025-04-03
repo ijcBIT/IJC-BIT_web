@@ -6,7 +6,7 @@ params:
     full_width: true 
     toc: true
 images:
-  - Screenshot.png
+  - ontology.png
 card_img:
   - iconBioForms.png?fill=90x90,Center
 summary:  
