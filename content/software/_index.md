@@ -20,7 +20,7 @@ menu:
 We develop software for specific research needs, from automated data analysis pipelines to data management solutions. Here some examples:
 
 <div class="ijc_bit_card" > 
-<a class="text-decoration-none text-body-secondary"  href="https://methylationdb.carrerasresearch.org target="_blank">
+<a class="text-decoration-none text-body-secondary"  href="https://github.com/ijcBIT/Metadata" target="_blank">
 
 ## MethylationDB
 <div class="software_logo card">

@@ -10,11 +10,9 @@ images:
 card_img:
   - iconBioForms.png?fill=90x90,Center
 summary:  
-  BioForms is a web-based application that allows users to create customizable metadata forms based on predefined templates. These forms ensure data consistency by using controlled vocabularies and ontologies to suggest valid values. BioForms simplifies metadata entry and integrates with the CEDAR Template Editor to enable users to submit form responses. Additionally, it supports Office 365 integration, allowing responses to be exported to Excel and stored in a dedicated SharePoint site for easy access and management.
+  BioForms is a web-based application that allows the creation of customizable metadata forms based on predefined templates to collect metadata in a standardized and machine readable way. The forms ensure data accuracy and consistency by using controlled vocabularies, such as ontologies. BioForms integrates with the CEDAR ecosystem and enables data export and access via Office 365 (Excel, SharePoint).
 ---
-
-
-
+<div class="ijc_bit_card"> 
 
 # BioForms
 
@@ -22,34 +20,31 @@ summary:
     <img src="iconBioForms.png" style="width: 100%; height: 100%;" />
 </div>
 
+BioForms is a web-based application that allows the creation of customizable metadata forms based on predefined templates to collect metadata in a standardized and machine readable way. The forms ensure data accuracy and consistency by using controlled vocabularies, such as ontologies. BioForms integrates with the CEDAR ecosystem and enables data export and access via Office 365 (Excel, SharePoint).
 
-BioForms is a web-based application that allows users to create customizable metadata forms based on predefined templates. These forms ensure data consistency by using controlled vocabularies and ontologies to suggest valid values. BioForms simplifies metadata entry and integrates with the CEDAR Template Editor to enable users to submit form responses. Additionally, it supports Office 365 integration, allowing responses to be exported to Excel and stored in a dedicated SharePoint site for easy access and management.
+![Linux](Screenshot.png) 
 
-<div class="ijc_bit_card"> 
+##  Quick Usage Overview
 
-## How to Send Form Links and Receive Notifications
+### For BioForm Administrators
 
-### 1. Create the Form:
-- Define the required fields that your form needs.
-- The BioForms system administrator will create the template in the CEDAR ecosystem and will add you to the dedicated SharePoint site if you are not already a member.
+##### Setting up a form:
+- Define the required fields for your form.
+- Create the template within the CEDAR ecosystem.
+- Set up a SharePoint folder to store the template and grant access to the relevant users.
+### For BioForm Users & Collaborators
+- Your administrator will provide you with a link to your web BioForm.
 
-### 2. Sending the Form Link to Collaborators:
-- You will receive a link to a specific template form from the BioForms system administrator.
-- Simply forward this link to your collaborator(s). The link will look something like this:
-    - Example: `www.bioforms.carrerasresearch.org/genomica`
-- Collaborators can access the form directly through this link and fill in all the necessary information.
-
-### 3. Form Submission and Notification:
-- Once the collaborator submits the form, an email notification will be sent from SharePoint. This notification confirms that the new file has been uploaded or an existing file has been updated.
-
-### 4. Accessing and Downloading Responses:
-- **Latest Responses:** You can download the most recent Excel file by accessing the SharePoint site using the link provided in the email.
-- **Historic Responses:** Explore all past responses by navigating to the SharePoint folder. There, you can view, download, or manage the entire history of submitted responses.
-
-By using BioForms, you can streamline the metadata submission process, ensuring all data is captured efficiently and is easily accessible for further analysis or record-keeping.
+  Example: www.bioforms.carrerasresearch.org/genomica
+      
+- Simply share this link with your collaborators so they can input the required metadata.
+- Once a collaborator submits the form, you’ll receive an email confirmation from SharePoint. This notification confirms whether a new file (Excel) has been uploaded or an existing file has been updated.
+##### Accessing & Downloading Information
+- Download the latest submission directly from the link in your confirmation email.
+- To access all past submissions, navigate to the designated SharePoint folder via Office. There, you can review the full submission history and download previous files as needed.
 
  </div>   
 
-## References
+### References
 - **BioForms Repository:** [BioForms GitHub Repository](https://github.com/ijcBIT/BioForms)
 - **CEDAR Project:** [CEDAR Template Editor GitHub Repository](https://github.com/metadatacenter)
