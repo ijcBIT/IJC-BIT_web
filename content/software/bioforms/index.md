@@ -22,7 +22,7 @@ summary:
 
 BioForms is a web-based application that allows the creation of customizable metadata forms based on predefined templates to collect metadata in a standardized and machine readable way. The forms ensure data accuracy and consistency by using controlled vocabularies, such as ontologies. BioForms integrates with the CEDAR ecosystem and enables data export and access via Office 365 (Excel, SharePoint).
 
-![Linux](Screenshot.png) 
+![Linux](Screenshot.png?#center) 
 
 ##  Quick Usage Overview
 
