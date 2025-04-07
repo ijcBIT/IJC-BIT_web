@@ -29,7 +29,7 @@ The IJC bioinformatics unit holds frequent training sessions and seminars. If yo
 
 
 
-### Introduction to Linux and the Shell (2 days)
+### Introduction to Linux and the Shell
 
 ![Linux](ubuntu.png?fit=100x100#float-start) 
 
@@ -37,7 +37,7 @@ A brief introduction to Linux and Shell programming for Beginners. Participants 
 
 <br>
 
-### The Shell advanced (1 day)
+### The Shell advanced
 
 ![Linux](linux.png?fit=100x100#float-start) 
 
@@ -45,7 +45,7 @@ In this  course we teach advanced functionality of the Shell (specifically bash)
 
 <br>
 
-### Working with high-performance computing clusters (1 day)
+### Working with high-performance computing clusters
 
 ![Linux](slurm.png?fit=100x100#float-start)
 
@@ -61,7 +61,7 @@ We provide a practical training session on how to use HPC clusters with the SLUR
 ## R
 
 
-### Introduction to R (2 days)
+### Introduction to R
 
 ![Linux](r.png?fit=100x100#float-start) 
 
@@ -87,8 +87,7 @@ This workshop introduces data visualization in R with the ggplot2 package for Be
 
 ## Tools for reproducible research
 
-### Introduction to software containers (docker, singularity) (1 day)
-
+### Introduction to software containers (docker, singularity)
 ![Linux](docker.png?fit=100x100#float-start) 
 
 <div style="text-align: justify;"> 
@@ -97,7 +96,7 @@ This workshop provides a comprehensive introduction to containers for newcomers.
 
 <br>
 
-### Version control with git and the GitHub code repository (1 day)
+### Version control with git and the GitHub code repository
 
 ![Linux](git.png?fit=100x100#float-start)
 
