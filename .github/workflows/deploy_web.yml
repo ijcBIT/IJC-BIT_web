@@ -36,7 +36,9 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-      
+
+
+
       - name: Install Node.js dependencies
         run: npm ci
         shell: sh
@@ -45,29 +47,26 @@ jobs:
         run: git config --global --add safe.directory /__w/IJC-BIT_web/IJC-BIT_web
         shell: sh
 
-      - name: Generate robots.txt for Staging
-        shell: sh
-        run: |
-          echo "User-agent: *" > ./static/robots.txt
-          echo "Disallow: /" >> ./static/robots.txt
-        # This creates a robots.txt file in the static directory that blocks indexing
-
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        shell: sh 
+        shell: sh
         run: |
           hugo \
             --gc \
             --enableGitInfo \
             --minify \
             -e production \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"                   
+            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            
+      - name: Debug Build Output
+        run: ls -R public
+        shell: sh        
       
       - name: Install GNU tar
         run: apk add --no-cache tar
-        shell: sh          
+        shell: sh  
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
