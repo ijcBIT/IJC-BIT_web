@@ -16,13 +16,14 @@
   },
   "homepage": "https://github.com/hbstack/theme#readme",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "@fullhuman/postcss-purgecss": "^7.0.0",
     "@types/jquery": "^3.5.29",
     "autoprefixer": "^10.4.14",
     "postcss-cli": "^11.0.0",
     "rtlcss": "^4.0.0"
   },
   "dependencies": {
-    "postcss": "^8.4.48"
+    "postcss": "^8.4.48",
+    "sass": "1.86.0"
   }
 }

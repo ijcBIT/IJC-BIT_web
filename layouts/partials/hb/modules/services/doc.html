@@ -2,5 +2,4 @@
 <div class="hb-docs-doc-content hb-module"{{ with $attributes }} {{ . | safeHTMLAttr }}{{ end }}>
   {{ .Content }}
 </div>
-{{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-doc-content-end") }}
 {{ partial "hb/modules/docs/doc/comments" . }}

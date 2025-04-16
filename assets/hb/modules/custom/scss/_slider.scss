@@ -1,7 +1,7 @@
 .slider-ijc-bit {
     position: relative;
     display: flex;
-    background: #00bfd6 url(/images/bgs-lines-blue.jpg) no-repeat left center;
+    background: #00bfd6 url(../images/bgs-lines-blue.jpg) no-repeat left center;
     flex-direction: row;
 }
 
@@ -22,6 +22,6 @@
     height: 250px;
     z-index: 2;
     top: 0;
-    background: transparent url(/images/curve_down.png) no-repeat top center;
+    background: transparent url(../images/curve_down.png) no-repeat top center;
     background-size: 100%, cover;
 }

@@ -1,7 +1,7 @@
 ###############
 # Build Stage #
 ###############
-FROM hugomods/hugo:exts as builder
+FROM hugomods/hugo:exts-0.145.0 as builder
 # Base URL
 ARG HUGO_BASEURL=
 ENV HUGO_BASEURL=${HUGO_BASEURL}
@@ -10,9 +10,9 @@ ARG HUGO_MODULE_PROXY=
 ENV HUGO_MODULE_PROXY=${HUGO_MODULE_PROXY}
 # Build site
 COPY . /src
-RUN hugo --minify --gc --enableGitInfo
+RUN hugo --gc --enableGitInfo --minify -e production
 # Set the fallback 404 page if defaultContentLanguageInSubdir is enabled, please replace the `en` with your default language code.
-RUN cp ./public/en/404.html ./public/404.html
+# RUN cp ./public/en/404.html ./public/404.html
 
 ###############
 # Final Stage #

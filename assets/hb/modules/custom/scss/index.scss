@@ -4,8 +4,6 @@
 
 /*! PUT YOU STYLE HERE TO AVOID GETTING REMOVING BY PURGECSS. */
 
-/*! purgecss end ignore */
-
 @import 'slider';
 
 .hb-header-logo {
@@ -15,7 +13,7 @@
 .tophead {
     height: 72px;
     margin-bottom: 0em;
-    background-image: url(/images/curve.png), url(/images/tophead.jpg);
+    background-image: url(../images/curve.png), url(../images/tophead.jpg);
     background-size: 100%, 100% 72px;
     background-position: center bottom;
     background-repeat: no-repeat, repeat-x;
@@ -233,3 +231,5 @@ h1 {
 .hb-docs-doc-toc {
     height: auto !important;
 }
+
+/*! purgecss end ignore */

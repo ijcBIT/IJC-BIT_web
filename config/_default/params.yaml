@@ -72,12 +72,12 @@ hb:
       taxonomies: false # remove the taxonomies stat from the homepage.
       featured_posts: 5 # the number of the featured posts.
       main_sections: # leave it empty to include all regular pages.
-         - contact
-      #   - software
-      #   - training
-      #   - publications
-      #   - services
-      #   - people
+          - contact
+        #  - software
+        #  - training
+        #  - publications
+        #  - services
+        #  - people
   content_panel:
     repo:
       service: github # github or gitlab.
@@ -120,6 +120,8 @@ mermaid:
 
 hugopress:
   modules:
+    pwa:
+      disable: true
     hb-custom:
       hooks:
         head-begin:
@@ -202,4 +204,4 @@ markup:
     parser:
       attribute:
         block: true
-        title: true
+        title: true    
