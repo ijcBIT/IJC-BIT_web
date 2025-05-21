@@ -30,14 +30,24 @@
     </div>
     {{- if $showSummary }}
       {{- $summary := $page.Summary }}
+      {{- $since_to := $page.Summary }}
       {{- $truncated := $page.Truncated }}
       {{- with $page.Description }}
         {{- $summary = . }}
         {{- $truncated := true }}
       {{- end }}
       <div class="hb-blog-post-summary card-text text-secondary mb-auto">
-        {{- $summary -}}
+        {{- $summary -}}        
+      </div>
+      {{- with $page.Params.since_to }} {{/* Correctly access since_to from $page.Params */}}
+      <div class="hb-blog-post-since-to card-text text-secondary a" style="color:#3c86a8 !important"> {{/* Added new class for specific styling */}}
+        {{- . -}} {{/* . refers to the value of since_to */}}
       </div>      
+      {{- end }}
+      {{- /* Display the full content of the page */}}
+      <div class="hb-blog-post-content card-text mb-auto"> {{/* Added new class for content */}}
+        {{- $page.Content -}}
+      </div>
     {{- end }}
   </div>
   {{- if $thumbnail }}
