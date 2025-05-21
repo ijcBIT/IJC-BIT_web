@@ -2,7 +2,7 @@
 title: People
 type: people
 images:
-  - group.JPG
+  - Bioinformatics_2025_EXT_1.JPG
 Meta:
   authors: false
   date: false
