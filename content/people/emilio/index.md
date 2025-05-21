@@ -2,6 +2,7 @@
 type: docs
 title: "Emilio Lario"
 description: Software Engineer
+since_to: "Since September 2023"
 card_img:
-  - Emilio_s.jpeg
+  - IMG_0235.JPG
 ---

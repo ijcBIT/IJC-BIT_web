@@ -2,6 +2,7 @@
 type: blog
 title: "Marta Meroño Rafel"
 description: Bioinformatician
+since_to: "Since October 2023"
 card_img:
-  - Marta_s.jpeg
+  - IMG_0231.JPG
 ---
